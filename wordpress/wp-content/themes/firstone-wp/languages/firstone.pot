@@ -1,0 +1,3736 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FirstOne OnePage WordPress Theme v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-09 13:28:01+0000\n"
+"Last-Translator: nicolae <nicolae@europadns.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:63
+#@ firstone_domain
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:68
+#@ firstone_domain
+msgid "Nothing was found at this location."
+msgstr ""
+
+#: archive.php:69
+#: archive.php:72
+#: archive.php:75
+#: archive.php:100
+#: archive.php:103
+#: archive.php:106
+#: archive.php:130
+#: archive.php:133
+#: archive.php:136
+#: archive.php:161
+#: archive.php:164
+#: archive.php:167
+#@ firstone_domain
+msgid "Viewing posts from : "
+msgstr ""
+
+#: archive.php:72
+#: archive.php:103
+#: archive.php:133
+#: archive.php:164
+#@ firstone_domain
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:75
+#: archive.php:106
+#: archive.php:136
+#: archive.php:167
+#@ firstone_domain
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:78
+#: archive.php:109
+#: archive.php:139
+#: archive.php:170
+#@ firstone_domain
+msgid "Archives!"
+msgstr ""
+
+#: category.php:69
+#: category.php:87
+#: category.php:103
+#: category.php:120
+#@ firstone_domain
+msgid "Viewing post categorized under: "
+msgstr ""
+
+#: comments.php:20
+#@ firstone_domain
+msgid "Comments"
+msgstr ""
+
+#: comments.php:37
+#@ firstone_domain
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:38
+#@ firstone_domain
+msgid " Older Comments"
+msgstr ""
+
+#: comments.php:39
+#@ firstone_domain
+msgid "Newer Comments "
+msgstr ""
+
+#: comments.php:44
+#@ firstone_domain
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:54
+#@ firstone_domain
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:55
+#@ firstone_domain
+msgid "Send"
+msgstr ""
+
+#: comments.php:56
+#@ firstone_domain
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:61
+#@ firstone_domain
+msgid "message"
+msgstr ""
+
+#: comments.php:64
+#@ firstone_domain
+msgid "name"
+msgstr ""
+
+#: comments.php:65
+#@ firstone_domain
+msgid "e-mail"
+msgstr ""
+
+#: comments.php:66
+#@ firstone_domain
+msgid "subject"
+msgstr ""
+
+#: content-alt.php:15
+#: content.php:41
+#@ firstone_domain
+msgid "Read more"
+msgstr ""
+
+#: content-none.php:8
+#@ firstone_domain
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:15
+#@ firstone_domain
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: content-none.php:17
+#@ firstone_domain
+msgid "Get started here"
+msgstr ""
+
+#: content-none.php:22
+#@ firstone_domain
+msgid "There are no search results for "
+msgstr ""
+
+#: content-none.php:27
+#@ firstone_domain
+msgid "It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-post.php:29
+#: content.php:23
+#@ firstone_domain
+msgid "By: "
+msgstr ""
+
+#: content-post.php:32
+#: content.php:26
+#@ firstone_domain
+msgid " in "
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/extensions/customizer/extension_customizer.php:501
+#: framework/admin/theme-options/ReduxCore/framework.php:1942
+#@ firstone_domain
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/extensions/customizer/extension_customizer.php:502
+#: framework/admin/theme-options/ReduxCore/framework.php:1950
+#@ firstone_domain
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/extensions/customizer/extension_customizer.php:503
+#: framework/admin/theme-options/ReduxCore/framework.php:1966
+#@ firstone_domain
+msgid "Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/extensions/customizer/extension_customizer.php:536
+#@ firstone_domain
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/extensions/customizer/extension_customizer.php:537
+#@ firstone_domain
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/extensions/customizer/extension_customizer.php:538
+#@ firstone_domain
+msgid "Your current options will be replaced with the values of this preset.  Would you like to proceed?"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:213
+#, php-format
+#@ firstone_domain
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:213
+#@ firstone_domain
+msgid "Redux Framework"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:217
+#: framework/admin/theme-options/ReduxCore/framework.php:221
+#@ firstone_domain
+msgid "Options"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:1361
+#: framework/admin/theme-options/ReduxCore/framework.php:1362
+#: framework/admin/theme-options/ReduxCore/framework.php:3579
+#: framework/admin/theme-options/ReduxCore/framework.php:3658
+#@ firstone_domain
+msgid "System Info"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:1958
+#@ firstone_domain
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:1973
+#@ firstone_domain
+msgid "Please Wait"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:2098
+#@ firstone_domain
+msgid "Enable"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:2103
+#@ firstone_domain
+msgid "Disable"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:2109
+#@ firstone_domain
+msgid "moving the mouse over"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:2111
+#@ firstone_domain
+msgid "clicking"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:2115
+#, php-format
+#@ firstone_domain
+msgid "Hints are tooltips that popup when %d the hint icon, offering addition information about the field in which they appear.  They can be %d d by using the link below."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:2120
+#@ firstone_domain
+msgid "Hints"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:2245
+#: framework/composer/custom_elements.php:53
+#@ firstone_domain
+msgid "Default"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3326
+#@ firstone_domain
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3377
+#@ firstone_domain
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3405
+#@ firstone_domain
+msgid "Expand"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3407
+#: framework/admin/theme-options/ReduxCore/framework.php:3715
+#@ firstone_domain
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3411
+#: framework/admin/theme-options/ReduxCore/framework.php:3719
+#@ firstone_domain
+msgid "Reset Section"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3413
+#: framework/admin/theme-options/ReduxCore/framework.php:3721
+#@ firstone_domain
+msgid "Reset All"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3418
+#: framework/admin/theme-options/ReduxCore/framework.php:3726
+#@ firstone_domain
+msgid "Working..."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3438
+#@ firstone_domain
+msgid "Settings Imported!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3453
+#@ firstone_domain
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3467
+#@ firstone_domain
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3481
+#@ firstone_domain
+msgid "Settings Saved!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3499
+#@ firstone_domain
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3507
+#@ firstone_domain
+msgid "error(s) were found!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/framework.php:3515
+#@ firstone_domain
+msgid "warning(s) were found!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/class.redux_filesystem.php:22
+#@ firstone_domain
+msgid "Unable to create a required directory. Please ensure that"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/class.redux_filesystem.php:24
+#@ firstone_domain
+msgid "has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/class.redux_functions.php:253
+#@ firstone_domain
+msgid "Dismiss"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/class.redux_themecheck.php:61
+#, php-format
+#@ firstone_domain
+msgid "The theme you are testing has %s embedded. We invite you to read the %sTheme-Check Documentation%s to understand some warnings you will see because of Redux."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/class.redux_themecheck.php:109
+#@ firstone_domain
+msgid "The following directories & files are still located in your <strong>Redux</strong>  directory. They may cause errors in Theme-Check."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/debug.php:41
+#: framework/admin/theme-options/ReduxCore/inc/debug.php:69
+#: framework/admin/theme-options/ReduxCore/inc/debug.php:76
+#: framework/admin/theme-options/ReduxCore/inc/debug.php:77
+#@ firstone_domain
+msgid "Options Object"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/debug.php:54
+#@ firstone_domain
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:124
+#: framework/admin/theme-options/ReduxCore/inc/fields/color/field_color.php:72
+#: framework/admin/theme-options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: framework/admin/theme-options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+#: framework/admin/theme-options/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:77
+#@ firstone_domain
+msgid "Transparent"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:141
+#@ firstone_domain
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:157
+#@ firstone_domain
+msgid "Background Clip"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:173
+#@ firstone_domain
+msgid "Background Origin"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:188
+#@ firstone_domain
+msgid "Background Size"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:203
+#@ firstone_domain
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:223
+#@ firstone_domain
+msgid "Background Position"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:277
+#: framework/admin/theme-options/ReduxCore/inc/fields/media/field_media.php:149
+#@ firstone_domain
+msgid "No media selected"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:314
+#: framework/admin/theme-options/ReduxCore/inc/fields/media/field_media.php:193
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:126
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:188
+#@ firstone_domain
+msgid "Upload"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/background/field_background.php:321
+#: framework/admin/theme-options/ReduxCore/inc/fields/media/field_media.php:200
+#: framework/admin/theme-options/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: framework/admin/theme-options/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: framework/admin/theme-options/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:133
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:190
+#@ firstone_domain
+msgid "Remove"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/border/field_border.php:114
+#: framework/admin/theme-options/ReduxCore/inc/fields/spacing/field_spacing.php:191
+#: framework/composer/custom_elements.php:896
+#@ firstone_domain
+msgid "All"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/border/field_border.php:127
+#: framework/admin/theme-options/ReduxCore/inc/fields/spacing/field_spacing.php:215
+#@ firstone_domain
+msgid "Top"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/border/field_border.php:134
+#: framework/admin/theme-options/ReduxCore/inc/fields/spacing/field_spacing.php:222
+#@ firstone_domain
+msgid "Right"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/border/field_border.php:141
+#: framework/admin/theme-options/ReduxCore/inc/fields/spacing/field_spacing.php:229
+#@ firstone_domain
+msgid "Bottom"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/border/field_border.php:148
+#: framework/admin/theme-options/ReduxCore/inc/fields/spacing/field_spacing.php:236
+#@ firstone_domain
+msgid "Left"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/border/field_border.php:162
+#@ firstone_domain
+msgid "Border style"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+#@ firstone_domain
+msgid "From "
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+#@ firstone_domain
+msgid "To "
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/dimensions/field_dimensions.php:161
+#@ firstone_domain
+msgid "Width"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/dimensions/field_dimensions.php:177
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:436
+#@ firstone_domain
+msgid "Height"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/dimensions/field_dimensions.php:188
+#: framework/admin/theme-options/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: framework/admin/theme-options/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: framework/admin/theme-options/ReduxCore/inc/fields/spacing/field_spacing.php:246
+#@ firstone_domain
+msgid "Units"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/gallery/field_gallery.php:73
+#@ firstone_domain
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/gallery/field_gallery.php:74
+#@ firstone_domain
+msgid "Clear Gallery"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/link_color/field_link_color.php:87
+#@ firstone_domain
+msgid "Regular"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/link_color/field_link_color.php:91
+#@ firstone_domain
+msgid "Hover"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/link_color/field_link_color.php:95
+#@ firstone_domain
+msgid "Visited"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/link_color/field_link_color.php:99
+#@ firstone_domain
+msgid "Active"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+#@ firstone_domain
+msgid "Add More"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/password/field_password.php:62
+#@ firstone_domain
+msgid "Password"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/password/field_password.php:63
+#@ firstone_domain
+msgid "Username"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/select/field_select.php:82
+#: framework/admin/theme-options/ReduxCore/inc/fields/select_image/field_select_image.php:62
+#@ firstone_domain
+msgid "Select an item"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/select/field_select.php:126
+#: framework/admin/theme-options/ReduxCore/inc/fields/select_image/field_select_image.php:143
+#@ firstone_domain
+msgid "No items of this type were found."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:68
+#@ firstone_domain
+msgid "Slide"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:73
+#, php-format
+#@ firstone_domain
+msgid "New %s"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:145
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:200
+#: framework/composer/custom_elements.php:231
+#: framework/composer/custom_elements.php:233
+#: framework/composer/custom_elements.php:408
+#: framework/composer/custom_elements.php:1313
+#: framework/composer/custom_elements.php:1707
+#: framework/composer/custom_elements.php:1940
+#@ firstone_domain
+msgid "Title"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:149
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:204
+#@ firstone_domain
+msgid "Description"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:153
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:207
+#@ firstone_domain
+msgid "URL"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:167
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:220
+#@ firstone_domain
+msgid "Delete"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+#@ firstone_domain
+msgid "Add %s"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/switch/field_switch.php:41
+#@ firstone_domain
+msgid "On"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/switch/field_switch.php:44
+#@ firstone_domain
+msgid "Off"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:227
+#@ firstone_domain
+msgid "Font Family"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:228
+#@ firstone_domain
+msgid "Font family"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:254
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:255
+#@ firstone_domain
+msgid "Backup Font Family"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:269
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:276
+#@ firstone_domain
+msgid "Font style"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:270
+#@ firstone_domain
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:276
+#@ firstone_domain
+msgid "Style"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:316
+#@ firstone_domain
+msgid "Font subsets"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:318
+#@ firstone_domain
+msgid "Font Subsets"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:319
+#@ firstone_domain
+msgid "Subsets"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:319
+#@ firstone_domain
+msgid "Font script"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:336
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:337
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:338
+#@ firstone_domain
+msgid "Text Align"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:359
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:360
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:361
+#@ firstone_domain
+msgid "Text Transform"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:382
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:383
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:384
+#@ firstone_domain
+msgid "Font Variant"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:402
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:403
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:404
+#@ firstone_domain
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:426
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:427
+#@ firstone_domain
+msgid "Font Size"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:427
+#@ firstone_domain
+msgid "Size"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:435
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:436
+#@ firstone_domain
+msgid "Line Height"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:444
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:445
+#@ firstone_domain
+msgid "Word Spacing"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:453
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:454
+#@ firstone_domain
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:472
+#@ firstone_domain
+msgid "Font Color"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:474
+#: framework/admin/theme-options/sample/sample-config.php:450
+#@ firstone_domain
+msgid "Font color"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:851
+#@ firstone_domain
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/fields/typography/field_typography.php:952
+#@ firstone_domain
+msgid "Google Webfonts"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:78
+#@ firstone_domain
+msgid "Import / Export Options"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:81
+#@ firstone_domain
+msgid "Import Options"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:82
+#@ firstone_domain
+msgid "Import from file"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:82
+#@ firstone_domain
+msgid "Import from URL"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:85
+#@ firstone_domain
+msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:90
+#@ firstone_domain
+msgid "Input the URL to another sites options set and hit Import to load the options from that site."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:94
+#@ firstone_domain
+msgid "Import"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:94
+#@ firstone_domain
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:97
+#@ firstone_domain
+msgid "Export Options"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:100
+#@ firstone_domain
+msgid "Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site)."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:104
+#@ firstone_domain
+msgid "Copy"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:104
+#@ firstone_domain
+msgid "Download"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:104
+#@ firstone_domain
+msgid "Copy Link"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:140
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:149
+#: framework/admin/theme-options/ReduxCore/inc/import_export.php:150
+#: framework/admin/theme-options/sample/sample-config.php:548
+#@ firstone_domain
+msgid "Import / Export"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:129
+#@ firstone_domain
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:130
+#@ firstone_domain
+msgid "Please helps us improve our panel by allowing us to gather anonymous usage stats so we know which configurations, plugins and themes to test to ensure compatibility."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:135
+#@ firstone_domain
+msgid "Allow tracking"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:140
+#@ firstone_domain
+msgid "Do not allow tracking"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:151
+#@ firstone_domain
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:152
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:139
+#@ firstone_domain
+msgid "Getting Started"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:152
+#, php-format
+#@ firstone_domain
+msgid "This panel demonstrates the many features of Redux.  Before digging in, we suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:152
+#@ firstone_domain
+msgid "our documentation"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:153
+#@ firstone_domain
+msgid "Redux Generator"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:153
+#, php-format
+#@ firstone_domain
+msgid "Want to get a head start? Use the %1$s. It will create a customized boilerplate theme or a standalone admin folder complete with all things Redux (with the help of Underscores and TGM). Save yourself a headache and try it today."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:154
+#@ firstone_domain
+msgid "Redux Extensions"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:154
+#, php-format
+#@ firstone_domain
+msgid "Did you know we have extensions, which greatly enhance the features of Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:154
+#@ firstone_domain
+msgid "extensions directory"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:155
+#@ firstone_domain
+msgid "Like Redux?"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:155
+#, php-format
+#@ firstone_domain
+msgid "If so, please %1$s and consider making a %2$s to keep development of Redux moving forward."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:155
+#@ firstone_domain
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:155
+#@ firstone_domain
+msgid "donation"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:156
+#@ firstone_domain
+msgid "Newsletter"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:156
+#@ firstone_domain
+msgid "If you'd like to keep up to with all things Redux, please subscribe to our newsletter"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:157
+#@ firstone_domain
+msgid "Email address"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:157
+#@ firstone_domain
+msgid "Subscribe"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/tracking.php:166
+#@ firstone_domain
+msgid "Close"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/color/validation_color.php:15
+#: framework/admin/theme-options/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: framework/admin/theme-options/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+#@ firstone_domain
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+#@ firstone_domain
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/date/validation_date.php:16
+#@ firstone_domain
+msgid "This field must be a valid date."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/email/validation_email.php:16
+#: framework/admin/theme-options/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+#@ firstone_domain
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+#@ firstone_domain
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+#@ firstone_domain
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+#@ firstone_domain
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: framework/admin/theme-options/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+#@ firstone_domain
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/validation/url/validation_url.php:16
+#@ firstone_domain
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:40
+#@ firstone_domain
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:48
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:295
+#@ firstone_domain
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:56
+#@ firstone_domain
+msgid "Getting started with Redux Framework"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:64
+#@ firstone_domain
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:135
+#@ firstone_domain
+msgid "What's New"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:143
+#@ firstone_domain
+msgid "Changelog"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:147
+#@ firstone_domain
+msgid "Credits"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:164
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:333
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:471
+#, php-format
+#@ firstone_domain
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:167
+#, php-format
+#@ firstone_domain
+msgid "Thank you for updating to the latest version! Redux Framework %s is ready to <add description>"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:169
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:300
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:338
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:476
+#, php-format
+#@ firstone_domain
+msgid "Version %s"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:174
+#@ firstone_domain
+msgid "Some Feature"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:178
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:182
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:195
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:199
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:203
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:208
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:221
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:225
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:230
+#@ firstone_domain
+msgid "Feature"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:190
+#@ firstone_domain
+msgid "Some feature"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:217
+#@ firstone_domain
+msgid "More Features"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:223
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:227
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:232
+#@ firstone_domain
+msgid "description"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:238
+#@ firstone_domain
+msgid "Additional Updates"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:242
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:246
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:252
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:256
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:262
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:266
+#@ firstone_domain
+msgid "Cool thing"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:244
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:248
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:254
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:258
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:264
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:268
+#@ firstone_domain
+msgid "cool thing description."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:277
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:316
+#@ firstone_domain
+msgid "Go to Redux Framework"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:278
+#@ firstone_domain
+msgid "View the Full Changelog"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:298
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:336
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:474
+#, php-format
+#@ firstone_domain
+msgid "Thank you for updating to the latest version! Redux Framework %s is ready to make your <description>"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:305
+#@ firstone_domain
+msgid "Full Changelog"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:342
+#@ firstone_domain
+msgid "Use the tips below to get started using Redux Framework. You'll be up and running in no time!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:345
+#@ firstone_domain
+msgid "Creating Your First Panel"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:350
+#, php-format
+#@ firstone_domain
+msgid "<a href=\"%s\">%s &rarr; Add New</a>"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:352
+#, php-format
+#@ firstone_domain
+msgid "The %s menu is your access point for all aspects of your Easy Digital Downloads product creation and setup. To create your first product, simply click Add New and then fill out the product details."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:354
+#@ firstone_domain
+msgid "Product Price"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:356
+#@ firstone_domain
+msgid "Products can have simple prices or variable prices if you wish to have more than one price point for a product. For a single price, simply enter the price. For multiple price points, click <em>Enable variable pricing</em> and enter the options."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:358
+#@ firstone_domain
+msgid "Download Files"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:360
+#@ firstone_domain
+msgid "Uploading the downloadable files is simple. Click <em>Upload File</em> in the Download Files section and choose your download file. To add more than one file, simply click the <em>Add New</em> button."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:366
+#@ firstone_domain
+msgid "Display a Product Grid"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:373
+#@ firstone_domain
+msgid "Flexible Product Grids"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:375
+#@ firstone_domain
+msgid "The [downloads] shortcode will display a product grid that works with any theme, no matter the size. It is even responsive!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:377
+#@ firstone_domain
+msgid "Change the Number of Columns"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:379
+#@ firstone_domain
+msgid "You can easily change the number of columns by adding the columns=\"x\" parameter:"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:385
+#@ firstone_domain
+msgid "Additional Display Options"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:387
+#, php-format
+#@ firstone_domain
+msgid "The product grids can be customized in any way you wish and there is <a href=\"%s\">extensive documentation</a> to assist you."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:392
+#@ firstone_domain
+msgid "Purchase Buttons Anywhere"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:397
+#@ firstone_domain
+msgid "The <em>[purchase_link]</em> Shortcode"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:399
+#@ firstone_domain
+msgid "With easily accessible shortcodes to display purchase buttons, you can add a Buy Now or Add to Cart button for any product anywhere on your site in seconds."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:401
+#@ firstone_domain
+msgid "Buy Now Buttons"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:403
+#@ firstone_domain
+msgid "Purchase buttons can behave as either Add to Cart or Buy Now buttons. With Buy Now buttons customers are taken straight to PayPal, giving them the most frictionless purchasing experience possible."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:409
+#@ firstone_domain
+msgid "Need Help?"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:413
+#@ firstone_domain
+msgid "Phenomenal Support"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:415
+#@ firstone_domain
+msgid "We do our best to provide the best support we can. If you encounter a problem or have a question, post a question in the <a href=\"https://easydigitaldownloads.com/support\">support forums</a>."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:417
+#@ firstone_domain
+msgid "Need Even Faster Support?"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:419
+#@ firstone_domain
+msgid "Our <a href=\"https://easydigitaldownloads.com/support/pricing/\">Priority Support forums</a> are there for customers that need faster and/or more in-depth assistance."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:425
+#@ firstone_domain
+msgid "Stay Up to Date"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:429
+#@ firstone_domain
+msgid "Get Notified of Extension Releases"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:431
+#@ firstone_domain
+msgid "New extensions that make Easy Digital Downloads even more powerful are released nearly every single week. Subscribe to the newsletter to stay up to date with our latest releases. <a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to ensure you do not miss a release!"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:433
+#@ firstone_domain
+msgid "Get Alerted About New Tutorials"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:435
+#@ firstone_domain
+msgid "<a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to hear about the latest tutorial releases that explain how to take Easy Digital Downloads further."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:441
+#@ firstone_domain
+msgid "Extensions for Everything"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:445
+#@ firstone_domain
+msgid "Over 250 Extensions"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:447
+#@ firstone_domain
+msgid "Add-on plugins are available that greatly extend the default functionality of Easy Digital Downloads. There are extensions for payment processors, such as Stripe and PayPal, extensions for newsletter integrations, and many, many more."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:449
+#@ firstone_domain
+msgid "Visit the Extension Store"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:451
+#@ firstone_domain
+msgid "<a href=\"https://asydigitaldownloads.com/extensions\" target=\"_blank\">The Extensions store</a> has a list of all available extensions, including convenient category filters so you can find exactly what you are looking for."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:480
+#@ firstone_domain
+msgid "Redux Framework is created by a worldwide team of developers who <something witty here>"
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:500
+#@ firstone_domain
+msgid "No valid changlog was found."
+msgstr ""
+
+#: framework/admin/theme-options/ReduxCore/inc/welcome.php:539
+#, php-format
+#@ firstone_domain
+msgid "View %s"
+msgstr ""
+
+#: framework/admin/theme-options/class.redux-plugin.php:303
+#@ firstone_domain
+msgid "Redux Framework has an embedded demo."
+msgstr ""
+
+#: framework/admin/theme-options/class.redux-plugin.php:303
+#@ firstone_domain
+msgid "Click here to activate the sample config file."
+msgstr ""
+
+#: framework/admin/theme-options/class.redux-plugin.php:409
+#@ firstone_domain
+msgid "Deactivate Demo Mode"
+msgstr ""
+
+#: framework/admin/theme-options/class.redux-plugin.php:411
+#@ firstone_domain
+msgid "Activate Demo Mode"
+msgstr ""
+
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:78
+#@ firstone_domain
+msgid "Add new sidebar"
+msgstr ""
+
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:94
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:123
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:132
+#@ firstone_domain
+msgid "Sidebar Title:"
+msgstr ""
+
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:111
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:116
+#@ firstone_domain
+msgid "Remove this sidebar"
+msgstr ""
+
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:114
+#@ firstone_domain
+msgid "Not possible, this sidebar is used on a page!"
+msgstr ""
+
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:126
+#: framework/admin/theme-options/extensions/custom_sidebars/field_custom_sidebars.php:133
+#@ firstone_domain
+msgid "Description : "
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:55
+#@ firstone_domain
+msgid "Home Settings"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:56
+#, php-format
+#@ firstone_domain
+msgid "Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: %d"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:64
+#@ firstone_domain
+msgid "Web Fonts"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:68
+#@ firstone_domain
+msgid "Basic media uploader with disabled URL input field."
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:69
+#@ firstone_domain
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:84
+#: framework/admin/theme-options/sample/sample-config.php:568
+#@ firstone_domain
+msgid "Theme Information 1"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:85
+#: framework/admin/theme-options/sample/barebones-config.php:91
+#: framework/admin/theme-options/sample/sample-config.php:569
+#: framework/admin/theme-options/sample/sample-config.php:575
+#@ firstone_domain
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:90
+#: framework/admin/theme-options/sample/sample-config.php:574
+#@ firstone_domain
+msgid "Theme Information 2"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:95
+#: framework/admin/theme-options/sample/sample-config.php:579
+#@ firstone_domain
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:118
+#: framework/admin/theme-options/sample/barebones-config.php:119
+#@ firstone_domain
+msgid "Sample Options"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:236
+#, php-format
+#@ firstone_domain
+msgid "<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your global variable: <strong>$%1$s</strong></p>"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:238
+#@ firstone_domain
+msgid "<p>This text is displayed above the options panel. It isn't required, but more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: framework/admin/theme-options/sample/barebones-config.php:242
+#@ firstone_domain
+msgid "<p>This text is displayed below the options panel. It isn't required, but more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:106
+#@ firstone_domain
+msgid "Section via hook"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:107
+#@ firstone_domain
+msgid "<p class=\"description\">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:184
+#, php-format
+#@ firstone_domain
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:200
+#@ firstone_domain
+msgid "By "
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:201
+#@ firstone_domain
+msgid "Version "
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:202
+#@ firstone_domain
+msgid "Tags"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:207
+#, php-format
+#@ firstone_domain
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:207
+#@ firstone_domain
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:245
+#@ firstone_domain
+msgid "General"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:252
+#@ firstone_domain
+msgid "FavIcon Selection"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:253
+#: framework/admin/theme-options/sample/sample-config.php:263
+#@ firstone_domain
+msgid "Upload a new icon image"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:254
+#: framework/admin/theme-options/sample/sample-config.php:264
+#@ firstone_domain
+msgid "Replace or remove the existing icon"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:262
+#@ firstone_domain
+msgid "Apple Icon Selection"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:271
+#@ firstone_domain
+msgid "Back to top"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:272
+#@ firstone_domain
+msgid "Show the back to top element"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:273
+#@ firstone_domain
+msgid "Toggle On or Off"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:284
+#@ firstone_domain
+msgid "Preloader image"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:285
+#: framework/admin/theme-options/sample/sample-config.php:349
+#@ firstone_domain
+msgid "Upload a new image"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:286
+#: framework/admin/theme-options/sample/sample-config.php:350
+#@ firstone_domain
+msgid "Replace or remove the existing image"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:293
+#@ firstone_domain
+msgid "404 Page Selection"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:294
+#@ firstone_domain
+msgid "Can replace the page displayed when error 404 occurs"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:295
+#@ firstone_domain
+msgid "Chose a page for 404 error"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:302
+#@ firstone_domain
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:303
+#@ firstone_domain
+msgid "Only CSS code allowed"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:304
+#@ firstone_domain
+msgid "This field is CSS validated."
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:310
+#@ firstone_domain
+msgid "Analytics"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:311
+#@ firstone_domain
+msgid "Field for Analytics Javascript code"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:312
+#@ firstone_domain
+msgid "Insert the Javascript code."
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:321
+#: framework/framework_setup.php:794
+#@ firstone_domain
+msgid "Header"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:328
+#@ firstone_domain
+msgid "Header Logo Selection"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:329
+#: framework/admin/theme-options/sample/sample-config.php:339
+#@ firstone_domain
+msgid "Upload a new logo image"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:330
+#: framework/admin/theme-options/sample/sample-config.php:340
+#@ firstone_domain
+msgid "Replace or remove the existing logo"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:338
+#@ firstone_domain
+msgid "Sticky Header Logo Selection"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:348
+#@ firstone_domain
+msgid "Header background image"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:360
+#: framework/admin/theme-options/sample/sample-config.php:366
+#@ firstone_domain
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:367
+#: framework/admin/theme-options/sample/sample-config.php:368
+#@ firstone_domain
+msgid "Enable or disable footer area"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:379
+#@ firstone_domain
+msgid "Footer Layout"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:380
+#@ firstone_domain
+msgid "Select the number of widgetable areas"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:411
+#@ firstone_domain
+msgid "Color Schemes"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:417
+#@ firstone_domain
+msgid "Color scheme"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:418
+#@ firstone_domain
+msgid "Enable or disable custom color scheme"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:419
+#@ firstone_domain
+msgid "If it is disabled, then the default color scheme will be used."
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:430
+#@ firstone_domain
+msgid "Accent color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:431
+#@ firstone_domain
+msgid "Pick an accent color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:440
+#@ firstone_domain
+msgid "Accent alt color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:441
+#@ firstone_domain
+msgid "Pick an alt accent color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:451
+#: framework/admin/theme-options/sample/sample-config.php:471
+#: framework/admin/theme-options/sample/sample-config.php:481
+#: framework/admin/theme-options/sample/sample-config.php:491
+#@ firstone_domain
+msgid "Pick a font color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:460
+#@ firstone_domain
+msgid "Headline color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:461
+#@ firstone_domain
+msgid "Pick a headline color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:470
+#@ firstone_domain
+msgid "Menu color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:480
+#@ firstone_domain
+msgid "Sticky menu background color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:490
+#@ firstone_domain
+msgid "Sticky menu font color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:500
+#@ firstone_domain
+msgid "Footer background color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:501
+#@ firstone_domain
+msgid "Pick a footer background color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:510
+#@ firstone_domain
+msgid "Footer font color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:511
+#@ firstone_domain
+msgid "Pick a footer font color"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:522
+#@ firstone_domain
+msgid "Sidebars"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:528
+#@ firstone_domain
+msgid "Add/remove multiple sidebars"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:530
+#@ firstone_domain
+msgid "Add/edit sidebars"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:531
+#@ firstone_domain
+msgid "No html allowed."
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:537
+#@ firstone_domain
+msgid "Theme URL:"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:538
+#@ firstone_domain
+msgid "Author:"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:539
+#@ firstone_domain
+msgid "Version:"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:543
+#@ firstone_domain
+msgid "Tags:"
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:549
+#@ firstone_domain
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: framework/admin/theme-options/sample/sample-config.php:599
+#: framework/admin/theme-options/sample/sample-config.php:600
+#@ firstone_domain
+msgid "Theme Options"
+msgstr ""
+
+#: framework/composer/custom_elements.php:41
+#@ firstone_domain
+msgid "Message box"
+msgstr ""
+
+#: framework/composer/custom_elements.php:44
+#: framework/composer/custom_elements.php:119
+#: framework/composer/custom_elements.php:226
+#: framework/composer/custom_elements.php:311
+#: framework/composer/custom_elements.php:403
+#: framework/composer/custom_elements.php:471
+#: framework/composer/custom_elements.php:548
+#: framework/composer/custom_elements.php:666
+#: framework/composer/custom_elements.php:988
+#: framework/composer/custom_elements.php:1280
+#: framework/composer/custom_elements.php:1298
+#: framework/composer/custom_elements.php:1380
+#: framework/composer/custom_elements.php:1553
+#: framework/composer/custom_elements.php:1571
+#: framework/composer/custom_elements.php:1682
+#: framework/composer/custom_elements.php:1701
+#: framework/composer/custom_elements.php:1816
+#: framework/composer/custom_elements.php:1837
+#: framework/composer/custom_elements.php:2178
+#@ firstone_domain
+msgid "Discovery Elements"
+msgstr ""
+
+#: framework/composer/custom_elements.php:49
+#@ firstone_domain
+msgid "Message Type"
+msgstr ""
+
+#: framework/composer/custom_elements.php:52
+#@ firstone_domain
+msgid "Info"
+msgstr ""
+
+#: framework/composer/custom_elements.php:54
+#@ firstone_domain
+msgid "Success"
+msgstr ""
+
+#: framework/composer/custom_elements.php:55
+#@ firstone_domain
+msgid "Warning"
+msgstr ""
+
+#: framework/composer/custom_elements.php:56
+#@ firstone_domain
+msgid "Error"
+msgstr ""
+
+#: framework/composer/custom_elements.php:58
+#: framework/composer/custom_elements.php:2257
+#@ firstone_domain
+msgid "Specify"
+msgstr ""
+
+#: framework/composer/custom_elements.php:62
+#@ firstone_domain
+msgid "Message"
+msgstr ""
+
+#: framework/composer/custom_elements.php:65
+#@ firstone_domain
+msgid "Specify the content of the message"
+msgstr ""
+
+#: framework/composer/custom_elements.php:116
+#@ firstone_domain
+msgid "Milestone"
+msgstr ""
+
+#: framework/composer/custom_elements.php:123
+#@ firstone_domain
+msgid "Number"
+msgstr ""
+
+#: framework/composer/custom_elements.php:126
+#@ firstone_domain
+msgid "The final value will animate to, from 0 to the number provided by you"
+msgstr ""
+
+#: framework/composer/custom_elements.php:130
+#@ firstone_domain
+msgid "Speed"
+msgstr ""
+
+#: framework/composer/custom_elements.php:133
+#@ firstone_domain
+msgid "Specify the animation speed"
+msgstr ""
+
+#: framework/composer/custom_elements.php:138
+#@ firstone_domain
+msgid "Milestone Details"
+msgstr ""
+
+#: framework/composer/custom_elements.php:143
+#: framework/composer/custom_elements.php:244
+#: framework/composer/custom_elements.php:999
+#: framework/composer/custom_elements.php:1306
+#@ firstone_domain
+msgid "Select icon"
+msgstr ""
+
+#: framework/composer/custom_elements.php:145
+#: framework/composer/custom_elements.php:246
+#: framework/composer/custom_elements.php:1001
+#: framework/composer/custom_elements.php:1308
+#@ firstone_domain
+msgid "Select the icon you want"
+msgstr ""
+
+#: framework/composer/custom_elements.php:223
+#@ firstone_domain
+msgid "Icon Box"
+msgstr ""
+
+#: framework/composer/custom_elements.php:234
+#@ firstone_domain
+msgid "The service title"
+msgstr ""
+
+#: framework/composer/custom_elements.php:238
+#@ firstone_domain
+msgid "Title link"
+msgstr ""
+
+#: framework/composer/custom_elements.php:240
+#: framework/composer/custom_elements.php:692
+#@ firstone_domain
+msgid "Specify an optional link pointing to a details page"
+msgstr ""
+
+#: framework/composer/custom_elements.php:250
+#@ firstone_domain
+msgid "Content"
+msgstr ""
+
+#: framework/composer/custom_elements.php:252
+#@ firstone_domain
+msgid "Add description text for the service"
+msgstr ""
+
+#: framework/composer/custom_elements.php:308
+#@ firstone_domain
+msgid "Pie Chart"
+msgstr ""
+
+#: framework/composer/custom_elements.php:316
+#@ firstone_domain
+msgid "Pie Chart Description"
+msgstr ""
+
+#: framework/composer/custom_elements.php:318
+#@ firstone_domain
+msgid "text"
+msgstr ""
+
+#: framework/composer/custom_elements.php:319
+#@ firstone_domain
+msgid "Specify chart text"
+msgstr ""
+
+#: framework/composer/custom_elements.php:323
+#@ firstone_domain
+msgid "Chart percent"
+msgstr ""
+
+#: framework/composer/custom_elements.php:326
+#@ firstone_domain
+msgid "Specify a value from 0 to 100"
+msgstr ""
+
+#: framework/composer/custom_elements.php:330
+#@ firstone_domain
+msgid "Pie Chart Bar Thickness"
+msgstr ""
+
+#: framework/composer/custom_elements.php:333
+#@ firstone_domain
+msgid "Numeric value between 5 and 15"
+msgstr ""
+
+#: framework/composer/custom_elements.php:337
+#@ firstone_domain
+msgid "Bar Width"
+msgstr ""
+
+#: framework/composer/custom_elements.php:340
+#@ firstone_domain
+msgid "Specify bar width"
+msgstr ""
+
+#: framework/composer/custom_elements.php:344
+#@ firstone_domain
+msgid "Bar Color"
+msgstr ""
+
+#: framework/composer/custom_elements.php:347
+#@ firstone_domain
+msgid "Specify Bar-Color"
+msgstr ""
+
+#: framework/composer/custom_elements.php:352
+#@ firstone_domain
+msgid "Track Color"
+msgstr ""
+
+#: framework/composer/custom_elements.php:355
+#@ firstone_domain
+msgid "Specify Track-Color"
+msgstr ""
+
+#: framework/composer/custom_elements.php:400
+#@ firstone_domain
+msgid "Progress Bar"
+msgstr ""
+
+#: framework/composer/custom_elements.php:410
+#@ firstone_domain
+msgid "title"
+msgstr ""
+
+#: framework/composer/custom_elements.php:411
+#@ firstone_domain
+msgid "The title of the progress bar"
+msgstr ""
+
+#: framework/composer/custom_elements.php:415
+#@ firstone_domain
+msgid "Value"
+msgstr ""
+
+#: framework/composer/custom_elements.php:418
+#@ firstone_domain
+msgid "Specify a value between 1 and 100, it represents the loaded percentage"
+msgstr ""
+
+#: framework/composer/custom_elements.php:468
+#@ firstone_domain
+msgid "Social Media"
+msgstr ""
+
+#: framework/composer/custom_elements.php:476
+#@ firstone_domain
+msgid "Social icon"
+msgstr ""
+
+#: framework/composer/custom_elements.php:479
+#@ firstone_domain
+msgid "Select social icon"
+msgstr ""
+
+#: framework/composer/custom_elements.php:484
+#@ firstone_domain
+msgid "Social link"
+msgstr ""
+
+#: framework/composer/custom_elements.php:487
+#@ firstone_domain
+msgid "Specify social link"
+msgstr ""
+
+#: framework/composer/custom_elements.php:545
+#: framework/composer/custom_elements.php:560
+#: framework/composer/custom_elements.php:1834
+#: framework/composer/custom_elements.php:1850
+#@ firstone_domain
+msgid "Testimonial"
+msgstr ""
+
+#: framework/composer/custom_elements.php:553
+#: framework/composer/custom_elements.php:1155
+#: framework/composer/custom_elements.php:1843
+#@ firstone_domain
+msgid "Name"
+msgstr ""
+
+#: framework/composer/custom_elements.php:555
+#: framework/composer/custom_elements.php:1157
+#: framework/composer/custom_elements.php:1845
+#@ firstone_domain
+msgid "Sample name"
+msgstr ""
+
+#: framework/composer/custom_elements.php:556
+#: framework/composer/custom_elements.php:1846
+#@ firstone_domain
+msgid "Specify the name of the testimonial author"
+msgstr ""
+
+#: framework/composer/custom_elements.php:563
+#: framework/composer/custom_elements.php:1853
+#@ firstone_domain
+msgid "Specify the text of the testimonial"
+msgstr ""
+
+#: framework/composer/custom_elements.php:567
+#: framework/composer/custom_elements.php:1148
+#: framework/composer/custom_elements.php:1714
+#: framework/composer/custom_elements.php:1857
+#@ firstone_domain
+msgid "Image"
+msgstr ""
+
+#: framework/composer/custom_elements.php:569
+#: framework/composer/custom_elements.php:1859
+#@ firstone_domain
+msgid "Add an image for the testimonial"
+msgstr ""
+
+#: framework/composer/custom_elements.php:663
+#@ firstone_domain
+msgid "Pricing Table"
+msgstr ""
+
+#: framework/composer/custom_elements.php:671
+#@ firstone_domain
+msgid "Plan name"
+msgstr ""
+
+#: framework/composer/custom_elements.php:673
+#@ firstone_domain
+msgid "Starter edition"
+msgstr ""
+
+#: framework/composer/custom_elements.php:677
+#@ firstone_domain
+msgid "Cost"
+msgstr ""
+
+#: framework/composer/custom_elements.php:683
+#@ firstone_domain
+msgid "Plan features (add one per line)"
+msgstr ""
+
+#: framework/composer/custom_elements.php:686
+#@ firstone_domain
+msgid "Write the specifications"
+msgstr ""
+
+#: framework/composer/custom_elements.php:690
+#@ firstone_domain
+msgid "Read more button"
+msgstr ""
+
+#: framework/composer/custom_elements.php:879
+#: framework/framework_setup.php:650
+#: framework/framework_setup.php:651
+#@ firstone_domain
+msgid "Portfolio"
+msgstr ""
+
+#: framework/composer/custom_elements.php:881
+#@ firstone_domain
+msgid "BusinessId Elements"
+msgstr ""
+
+#: framework/composer/custom_elements.php:886
+#@ firstone_domain
+msgid "Initial number of projects"
+msgstr ""
+
+#: framework/composer/custom_elements.php:889
+#@ firstone_domain
+msgid "How many portfolio items to show, initially"
+msgstr ""
+
+#: framework/composer/custom_elements.php:893
+#@ firstone_domain
+msgid "All Projects Caption"
+msgstr ""
+
+#: framework/composer/custom_elements.php:895
+#@ firstone_domain
+msgid "Specify the All projects caption"
+msgstr ""
+
+#: framework/composer/custom_elements.php:900
+#@ firstone_domain
+msgid "Show Load More button"
+msgstr ""
+
+#: framework/composer/custom_elements.php:902
+#@ firstone_domain
+msgid "If Load More button is enabled, you can press it to load more projects"
+msgstr ""
+
+#: framework/composer/custom_elements.php:903
+#@ firstone_domain
+msgid "enable"
+msgstr ""
+
+#: framework/composer/custom_elements.php:907
+#@ firstone_domain
+msgid "Load More Button Caption"
+msgstr ""
+
+#: framework/composer/custom_elements.php:909
+#@ firstone_domain
+msgid "Specify the load more caption"
+msgstr ""
+
+#: framework/composer/custom_elements.php:910
+#@ firstone_domain
+msgid "Load More"
+msgstr ""
+
+#: framework/composer/custom_elements.php:914
+#@ firstone_domain
+msgid "Number of projects to load on Load More"
+msgstr ""
+
+#: framework/composer/custom_elements.php:917
+#@ firstone_domain
+msgid "How many extra portfolio items to show when Load More is pressed"
+msgstr ""
+
+#: framework/composer/custom_elements.php:921
+#@ firstone_domain
+msgid "Disable portfolio filter"
+msgstr ""
+
+#: framework/composer/custom_elements.php:923
+#@ firstone_domain
+msgid "disable"
+msgstr ""
+
+#: framework/composer/custom_elements.php:924
+#@ firstone_domain
+msgid "If you disable portfolio filter, then you won't be able to filter portfolio by portfolio category"
+msgstr ""
+
+#: framework/composer/custom_elements.php:986
+#@ firstone_domain
+msgid "Button(s)"
+msgstr ""
+
+#: framework/composer/custom_elements.php:993
+#@ firstone_domain
+msgid "Link title &amp; URL"
+msgstr ""
+
+#: framework/composer/custom_elements.php:995
+#@ firstone_domain
+msgid "Specify the link pointing to another page"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1005
+#@ firstone_domain
+msgid "Button Size"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1007
+#@ firstone_domain
+msgid "Large"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1011
+#@ firstone_domain
+msgid "Alt color"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1013
+#@ firstone_domain
+msgid "Alternative color"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1017
+#@ firstone_domain
+msgid "Button Position"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1019
+#@ firstone_domain
+msgid "Center"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1141
+#@ firstone_domain
+msgid "Team Member"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1144
+#@ firstone_domain
+msgid "Jewel Elements"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1150
+#@ firstone_domain
+msgid "Add the image of the team member"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1158
+#@ firstone_domain
+msgid "Specify the name of the member"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1162
+#: framework/composer/custom_elements.php:1164
+#@ firstone_domain
+msgid "Job Title"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1168
+#@ firstone_domain
+msgid "Facebook"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1171
+#@ firstone_domain
+msgid "Add an optional link to Facebook profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1175
+#@ firstone_domain
+msgid "Twitter"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1178
+#@ firstone_domain
+msgid "Add an optional link to Twitter profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1182
+#@ firstone_domain
+msgid "Google Plus"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1185
+#@ firstone_domain
+msgid "Add an optional link to Google Plus profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1189
+#@ firstone_domain
+msgid "Linkedin"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1192
+#@ firstone_domain
+msgid "Add an optional link to Linkedin profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1196
+#@ firstone_domain
+msgid "Youtube"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1199
+#@ firstone_domain
+msgid "Add an optional link to Youtube profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1203
+#@ firstone_domain
+msgid "Pinteres"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1206
+#@ firstone_domain
+msgid "Add an optional link to Pinteres profile page, leave blank if not available"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1278
+#@ firstone_domain
+msgid "Our Process"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1288
+#: framework/composer/custom_elements.php:1561
+#: framework/composer/custom_elements.php:1824
+#@ firstone_domain
+msgid "Extra Class"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1291
+#: framework/composer/custom_elements.php:1564
+#: framework/composer/custom_elements.php:1827
+#@ firstone_domain
+msgid "Specify an optional extra class"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1296
+#@ firstone_domain
+msgid "Process Step"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1315
+#: framework/composer/custom_elements.php:1709
+#: framework/composer/custom_elements.php:1942
+#@ firstone_domain
+msgid "Sample title"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1316
+#@ firstone_domain
+msgid "Specify the title of the process"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1320
+#: framework/composer/custom_elements.php:1947
+#@ firstone_domain
+msgid "Details"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1322
+#@ firstone_domain
+msgid "Specify the details of the process step"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1366
+#@ firstone_domain
+msgid "This will be replaced with the Google Map."
+msgstr ""
+
+#: framework/composer/custom_elements.php:1378
+#@ firstone_domain
+msgid "Google Map"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1386
+#@ firstone_domain
+msgid "Address"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1389
+#@ firstone_domain
+msgid "The address where the map is centered"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1393
+#@ firstone_domain
+msgid "Pinpoint caption"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1396
+#@ firstone_domain
+msgid "Specify text that will appear when you click on the pin"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1400
+#@ firstone_domain
+msgid "Zoom"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1403
+#@ firstone_domain
+msgid "Specify a zoom value between 5 and 20"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1462
+#: framework/composer/custom_elements.php:2054
+#@ firstone_domain
+msgid "read more"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1463
+#: framework/composer/custom_elements.php:2055
+#@ firstone_domain
+msgid "Posted By "
+msgstr ""
+
+#: framework/composer/custom_elements.php:1464
+#: framework/composer/custom_elements.php:2056
+#@ firstone_domain
+msgid "in "
+msgstr ""
+
+#: framework/composer/custom_elements.php:1551
+#@ firstone_domain
+msgid "Posts Slider Container"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1569
+#@ firstone_domain
+msgid "Posts Slider Element"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1579
+#@ firstone_domain
+msgid "Select Post"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1680
+#@ firstone_domain
+msgid "Previewer"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1689
+#@ firstone_domain
+msgid "Container Image"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1691
+#@ firstone_domain
+msgid "Chose an image or the default one will be used"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1698
+#@ firstone_domain
+msgid "Previwer Element"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1710
+#@ firstone_domain
+msgid "Specify a title"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1716
+#@ firstone_domain
+msgid "Add an image"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1814
+#@ firstone_domain
+msgid "Testimonial Slider Container"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1932
+#@ firstone_domain
+msgid "HeadLine"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1935
+#: framework/composer/custom_elements.php:1992
+#: framework/composer/custom_elements.php:2126
+#@ firstone_domain
+msgid "Essence Elements"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1943
+#@ firstone_domain
+msgid "Specify the text of the headline"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1949
+#@ firstone_domain
+msgid "Sample details field from here"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1950
+#@ firstone_domain
+msgid "Specify the detailed text of the headline"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1989
+#@ firstone_domain
+msgid "Latest tweets"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1997
+#@ firstone_domain
+msgid "ID"
+msgstr ""
+
+#: framework/composer/custom_elements.php:1999
+#@ firstone_domain
+msgid "Specify the twitter user id"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2004
+#@ firstone_domain
+msgid "Number of tweets"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2007
+#@ firstone_domain
+msgid "Specify the number of tweets"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2124
+#@ firstone_domain
+msgid "Recent Posts"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2133
+#@ firstone_domain
+msgid "Number of posts"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2137
+#@ firstone_domain
+msgid "Specify the number of posts you want in the slider"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2176
+#@ firstone_domain
+msgid "Animations Container"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2187
+#@ firstone_domain
+msgid "Animation Type"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2190
+#@ firstone_domain
+msgid "bounce"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2191
+#@ firstone_domain
+msgid "flash"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2192
+#@ firstone_domain
+msgid "pulse"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2193
+#@ firstone_domain
+msgid "rubberBand"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2194
+#@ firstone_domain
+msgid "shake"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2195
+#@ firstone_domain
+msgid "swing"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2196
+#@ firstone_domain
+msgid "tada"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2197
+#@ firstone_domain
+msgid "wobble"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2198
+#@ firstone_domain
+msgid "bounceIn"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2199
+#@ firstone_domain
+msgid "bounceInDown"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2200
+#@ firstone_domain
+msgid "bounceInLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2201
+#@ firstone_domain
+msgid "bounceInRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2202
+#@ firstone_domain
+msgid "bounceInUp"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2203
+#@ firstone_domain
+msgid "bounceOut"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2204
+#@ firstone_domain
+msgid "bounceOutDown"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2205
+#@ firstone_domain
+msgid "bounceOutLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2206
+#@ firstone_domain
+msgid "bounceOutRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2207
+#@ firstone_domain
+msgid "bounceOutUp"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2208
+#@ firstone_domain
+msgid "fadeIn"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2209
+#@ firstone_domain
+msgid "fadeInDown"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2210
+#@ firstone_domain
+msgid "fadeInDownBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2211
+#@ firstone_domain
+msgid "fadeInLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2212
+#@ firstone_domain
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2213
+#@ firstone_domain
+msgid "fadeInRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2214
+#@ firstone_domain
+msgid "fadeInRightBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2215
+#@ firstone_domain
+msgid "fadeInUp"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2216
+#@ firstone_domain
+msgid "fadeInUpBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2217
+#@ firstone_domain
+msgid "fadeOut"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2218
+#@ firstone_domain
+msgid "fadeOutDown"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2219
+#@ firstone_domain
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2220
+#@ firstone_domain
+msgid "fadeOutLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2221
+#@ firstone_domain
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2222
+#@ firstone_domain
+msgid "fadeOutRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2223
+#@ firstone_domain
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2224
+#@ firstone_domain
+msgid "fadeOutUp"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2225
+#@ firstone_domain
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2226
+#@ firstone_domain
+msgid "flip"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2227
+#@ firstone_domain
+msgid "flipInX"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2228
+#@ firstone_domain
+msgid "flipInY"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2229
+#@ firstone_domain
+msgid "flipOutX"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2230
+#@ firstone_domain
+msgid "flipOutY"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2231
+#@ firstone_domain
+msgid "lightSpeedIn"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2232
+#@ firstone_domain
+msgid "lightSpeedOut"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2233
+#@ firstone_domain
+msgid "rotateIn"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2234
+#@ firstone_domain
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2235
+#@ firstone_domain
+msgid "rotateInDownRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2236
+#@ firstone_domain
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2237
+#@ firstone_domain
+msgid "rotateInUpRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2238
+#@ firstone_domain
+msgid "rotateOut"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2239
+#@ firstone_domain
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2240
+#@ firstone_domain
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2241
+#@ firstone_domain
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2242
+#@ firstone_domain
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2243
+#@ firstone_domain
+msgid "hinge"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2244
+#@ firstone_domain
+msgid "rollIn"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2245
+#@ firstone_domain
+msgid "rollOut"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2246
+#@ firstone_domain
+msgid "zoomIn"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2247
+#@ firstone_domain
+msgid "zoomInDown"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2248
+#@ firstone_domain
+msgid "zoomInLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2249
+#@ firstone_domain
+msgid "zoomInRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2250
+#@ firstone_domain
+msgid "zoomInUp"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2251
+#@ firstone_domain
+msgid "zoomOut"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2252
+#@ firstone_domain
+msgid "zoomOutDown"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2253
+#@ firstone_domain
+msgid "zoomOutLeft"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2254
+#@ firstone_domain
+msgid "zoomOutRight"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2255
+#@ firstone_domain
+msgid "zoomOutUp"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2261
+#@ firstone_domain
+msgid "Animation Delay"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2264
+#@ firstone_domain
+msgid "Specify the delay amount"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2268
+#@ firstone_domain
+msgid "Animation Speed"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2271
+#@ firstone_domain
+msgid "Specify the delay amount(in milliseconds, 1000 milliseconds = 1 second)"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2275
+#@ firstone_domain
+msgid "Animation Offset"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2278
+#@ firstone_domain
+msgid "Specify the Offset amount (in percentage from 0 to 100)"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2306
+#@ firstone_domain
+msgid "Row ID"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2308
+#@ firstone_domain
+msgid "Allows you to give the row an ID. Useful when creating the navigation. Please add ID without the #"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2315
+#@ firstone_domain
+msgid "Spread full width"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2317
+#@ firstone_domain
+msgid "Full Width"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2319
+#@ firstone_domain
+msgid "Yes"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2326
+#@ firstone_domain
+msgid "Add parallax effect to this section"
+msgstr ""
+
+#: framework/composer/custom_elements.php:2328
+#: framework/composer/custom_elements.php:2329
+#@ firstone_domain
+msgid "Parallax"
+msgstr ""
+
+#: framework/framework_setup.php:250
+#@ firstone_domain
+msgid "FirstOne Menu"
+msgstr ""
+
+#: framework/framework_setup.php:304
+#, php-format
+#@ firstone_domain
+msgid "Page %s"
+msgstr ""
+
+#: framework/framework_setup.php:619
+#@ firstone_domain
+msgid "Default Sidebar"
+msgstr ""
+
+#: framework/framework_setup.php:621
+#@ firstone_domain
+msgid "Default widget area"
+msgstr ""
+
+#: framework/framework_setup.php:631
+#@ firstone_domain
+msgid "Footer Widget Area "
+msgstr ""
+
+#: framework/framework_setup.php:633
+#@ firstone_domain
+msgid "Widget area"
+msgstr ""
+
+#: framework/framework_setup.php:666
+#: framework/framework_setup.php:676
+#@ firstone_domain
+msgid "Categories"
+msgstr ""
+
+#: framework/framework_setup.php:667
+#@ firstone_domain
+msgid "Category"
+msgstr ""
+
+#: framework/framework_setup.php:668
+#@ firstone_domain
+msgid "Search Categories"
+msgstr ""
+
+#: framework/framework_setup.php:669
+#@ firstone_domain
+msgid "All Categories"
+msgstr ""
+
+#: framework/framework_setup.php:670
+#@ firstone_domain
+msgid "Parent Category"
+msgstr ""
+
+#: framework/framework_setup.php:671
+#@ firstone_domain
+msgid "Parent Category:"
+msgstr ""
+
+#: framework/framework_setup.php:672
+#@ firstone_domain
+msgid "Edit Category"
+msgstr ""
+
+#: framework/framework_setup.php:673
+#@ firstone_domain
+msgid "Update Category"
+msgstr ""
+
+#: framework/framework_setup.php:674
+#@ firstone_domain
+msgid "Add New Category"
+msgstr ""
+
+#: framework/framework_setup.php:675
+#@ firstone_domain
+msgid "New Category Name"
+msgstr ""
+
+#: framework/framework_setup.php:751
+#@ firstone_domain
+msgid "List Styles"
+msgstr ""
+
+#: framework/framework_setup.php:754
+#@ firstone_domain
+msgid "Check"
+msgstr ""
+
+#: framework/framework_setup.php:759
+#@ firstone_domain
+msgid "Plus"
+msgstr ""
+
+#: framework/framework_setup.php:764
+#@ firstone_domain
+msgid "Pin"
+msgstr ""
+
+#: framework/framework_setup.php:789
+#@ firstone_domain
+msgid "Page Header"
+msgstr ""
+
+#: framework/framework_setup.php:803
+#@ firstone_domain
+msgid "Header image"
+msgstr ""
+
+#: framework/framework_setup.php:808
+#@ firstone_domain
+msgid "Header title"
+msgstr ""
+
+#: framework/framework_setup.php:852
+#@ firstone_domain
+msgid "Turn the page header On or Off for the current page"
+msgstr ""
+
+#: framework/framework_setup.php:856
+#@ firstone_domain
+msgid "You can optionally add a page header title, otherwise the page name will be used as header title"
+msgstr ""
+
+#: framework/framework_setup.php:869
+#@ firstone_domain
+msgid "Choose Image"
+msgstr ""
+
+#: framework/framework_setup.php:870
+#@ firstone_domain
+msgid "Remove Image"
+msgstr ""
+
+#: framework/framework_setup.php:871
+#@ firstone_domain
+msgid "Select an image to be used in the header"
+msgstr ""
+
+#: framework/plugins/required_plugins.php:76
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:142
+#@ firstone_domain
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/plugins/required_plugins.php:77
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:143
+#@ firstone_domain
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/plugins/required_plugins.php:78
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:144
+#, php-format
+#@ firstone_domain
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/plugins/required_plugins.php:79
+#@ firstone_domain
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/plugins/required_plugins.php:80
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:146
+#, php-format
+#@ firstone_domain
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:81
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:147
+#, php-format
+#@ firstone_domain
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:82
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:148
+#, php-format
+#@ firstone_domain
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:83
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:149
+#, php-format
+#@ firstone_domain
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:84
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:150
+#, php-format
+#@ firstone_domain
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:85
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:151
+#, php-format
+#@ firstone_domain
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:86
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:152
+#, php-format
+#@ firstone_domain
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:87
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:153
+#, php-format
+#@ firstone_domain
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:88
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:154
+#@ firstone_domain
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:89
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:155
+#@ firstone_domain
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/required_plugins.php:90
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:156
+#@ firstone_domain
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/plugins/required_plugins.php:91
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:158
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1631
+#@ firstone_domain
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/plugins/required_plugins.php:92
+#, php-format
+#@ firstone_domain
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:145
+#@ firstone_domain
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:157
+#@ firstone_domain
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:160
+#, php-format
+#@ firstone_domain
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:161
+#@ firstone_domain
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:453
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1809
+#@ firstone_domain
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:984
+#@ firstone_domain
+msgid "Private Repository"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:987
+#@ firstone_domain
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:992
+#@ firstone_domain
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:994
+#@ firstone_domain
+msgid "Required"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:994
+#@ firstone_domain
+msgid "Recommended"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:996
+#@ firstone_domain
+msgid "Not Installed"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:998
+#@ firstone_domain
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1084
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1178
+#@ firstone_domain
+msgid "Install"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1179
+#@ firstone_domain
+msgid "Activate"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1148
+#, php-format
+#@ firstone_domain
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1161
+#@ firstone_domain
+msgid "Plugin"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1162
+#@ firstone_domain
+msgid "Source"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1163
+#@ firstone_domain
+msgid "Type"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1164
+#@ firstone_domain
+msgid "Status"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1376
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:159
+#@ firstone_domain
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1617
+#@ firstone_domain
+msgid "Install package not available."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1618
+#, php-format
+#@ firstone_domain
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1619
+#@ firstone_domain
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1620
+#@ firstone_domain
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1621
+#@ firstone_domain
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1622
+#@ firstone_domain
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1630
+#@ firstone_domain
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1724
+#@ firstone_domain
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1725
+#, php-format
+#@ firstone_domain
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1725
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1734
+#@ firstone_domain
+msgid "Show Details"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1725
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1734
+#@ firstone_domain
+msgid "Hide Details"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1726
+#@ firstone_domain
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1727
+#, php-format
+#@ firstone_domain
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1731
+#@ firstone_domain
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1732
+#, php-format
+#@ firstone_domain
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1733
+#, php-format
+#@ firstone_domain
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1734
+#, php-format
+#@ firstone_domain
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1735
+#@ firstone_domain
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:1736
+#, php-format
+#@ firstone_domain
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/theme_options_setup.php:78
+#: framework/theme_options_setup.php:114
+#@ firstone_domain
+msgid "Page Layout and Sidebar Manager"
+msgstr ""
+
+#: framework/theme_options_setup.php:85
+#: framework/theme_options_setup.php:121
+#@ firstone_domain
+msgid "Page Layout"
+msgstr ""
+
+#: framework/theme_options_setup.php:96
+#: framework/theme_options_setup.php:132
+#@ firstone_domain
+msgid "Sidebar"
+msgstr ""
+
+#: framework/theme_options_setup.php:169
+#@ firstone_domain
+msgid "Sidebar on the left"
+msgstr ""
+
+#: framework/theme_options_setup.php:172
+#: framework/theme_options_setup.php:185
+#@ firstone_domain
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/theme_options_setup.php:175
+#@ firstone_domain
+msgid "Sidebar on the right"
+msgstr ""
+
+#: framework/theme_options_setup.php:190
+#@ firstone_domain
+msgid "Select if the page should have a sidebar and how it should be positioned"
+msgstr ""
+
+#: framework/theme_options_setup.php:200
+#@ firstone_domain
+msgid "Select the sidebar that should be used. You can create additional sidebars in the theme options panel"
+msgstr ""
+
+#: framework/widgets.php:12
+#@ firstone_domain
+msgid "FirstOne - Contact"
+msgstr ""
+
+#: framework/widgets.php:13
+#@ firstone_domain
+msgid "contact widget"
+msgstr ""
+
+#: framework/widgets.php:85
+#: framework/widgets.php:239
+#: framework/widgets.php:412
+#: framework/widgets.php:531
+#: framework/widgets.php:651
+#@ firstone_domain
+msgid "Title:"
+msgstr ""
+
+#: framework/widgets.php:101
+#@ firstone_domain
+msgid "Address:"
+msgstr ""
+
+#: framework/widgets.php:115
+#@ firstone_domain
+msgid "Phone:"
+msgstr ""
+
+#: framework/widgets.php:132
+#@ firstone_domain
+msgid "Email:"
+msgstr ""
+
+#: framework/widgets.php:163
+#@ firstone_domain
+msgid "FirstOne - Connect With Us"
+msgstr ""
+
+#: framework/widgets.php:164
+#@ firstone_domain
+msgid "Connect With Us widget"
+msgstr ""
+
+#: framework/widgets.php:255
+#@ firstone_domain
+msgid "Facebook link:"
+msgstr ""
+
+#: framework/widgets.php:270
+#@ firstone_domain
+msgid "Twitter link:"
+msgstr ""
+
+#: framework/widgets.php:286
+#@ firstone_domain
+msgid "Googleplus link:"
+msgstr ""
+
+#: framework/widgets.php:301
+#@ firstone_domain
+msgid "LinkedIn link:"
+msgstr ""
+
+#: framework/widgets.php:317
+#@ firstone_domain
+msgid "Youtube link:"
+msgstr ""
+
+#: framework/widgets.php:333
+#@ firstone_domain
+msgid "Pinterest link:"
+msgstr ""
+
+#: framework/widgets.php:367
+#@ firstone_domain
+msgid "FirstOne - Twitter"
+msgstr ""
+
+#: framework/widgets.php:368
+#@ firstone_domain
+msgid "Twitter widget"
+msgstr ""
+
+#: framework/widgets.php:428
+#@ firstone_domain
+msgid "Twitter Widget ID:"
+msgstr ""
+
+#: framework/widgets.php:434
+#@ firstone_domain
+msgid ""
+"### HOW TO CREATE A VALID ID TO USE: ###<br>\n"
+"                * Go to www.twitter.com and sign in as normal, go to your settings page.<br>\n"
+"                * Go to \"Widgets\" on the left hand side.<br>\n"
+"                * Create a new widget for what you need eg \"user time line\" or \"search\" etc.<br>\n"
+"                * Feel free to check \"exclude replies\" if you do not want replies in results.<br>\n"
+"                * Now go back to settings page, and then go back to widgets page and you should see the widget you just created. Click edit.<br>\n"
+"                * Look at the URL in your web browser, you will see a long number like this:<br>\n"
+"                * 345735908357048478<br>\n"
+"                * Use this as your ID instead!"
+msgstr ""
+
+#: framework/widgets.php:454
+#@ firstone_domain
+msgid "Number of tweets:"
+msgstr ""
+
+#: framework/widgets.php:484
+#@ firstone_domain
+msgid "FirstOne - Flickr"
+msgstr ""
+
+#: framework/widgets.php:485
+#@ firstone_domain
+msgid "Flickr gallery widget"
+msgstr ""
+
+#: framework/widgets.php:547
+#@ firstone_domain
+msgid "Flicker User ID:"
+msgstr ""
+
+#: framework/widgets.php:553
+#@ firstone_domain
+msgid "Use "
+msgstr ""
+
+#: framework/widgets.php:553
+#@ firstone_domain
+msgid " to get the Flicker ID number."
+msgstr ""
+
+#: framework/widgets.php:564
+#@ firstone_domain
+msgid "Number of images:"
+msgstr ""
+
+#: framework/widgets.php:594
+#@ firstone_domain
+msgid "FirstOne - Recent posts"
+msgstr ""
+
+#: framework/widgets.php:595
+#@ firstone_domain
+msgid "Displays recent posts with a thumbnail"
+msgstr ""
+
+#: framework/widgets.php:647
+#@ firstone_domain
+msgid "Blog"
+msgstr ""
+
+#: framework/widgets.php:667
+#@ firstone_domain
+msgid "Number of posts:"
+msgstr ""
+
+#: header.php:49
+#@ firstone_domain
+msgid "You seem to have Javascript disabled. This website needs javascript in order to function properly!"
+msgstr ""
+
+#: header.php:55
+#@ firstone_domain
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please \n"
+"                <a href=\"http://windows.microsoft.com/en-us/internet-explorer/download-ie\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: search.php:66
+#: search.php:82
+#: search.php:98
+#: search.php:115
+#, php-format
+#@ firstone_domain
+msgid "The search for %s returned:"
+msgstr ""
+
+#: searchform.php:8
+#@ firstone_domain
+msgid "Search for:"
+msgstr ""
+
+#: tag.php:69
+#: tag.php:85
+#: tag.php:101
+#: tag.php:118
+#, php-format
+#@ firstone_domain
+msgid "Tag Archives: %s"
+msgstr ""
+
