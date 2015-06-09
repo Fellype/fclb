@@ -1,0 +1,595 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>FirstOne WP | Documentation</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+
+    <!-- Plugins CSS  -->
+    <link rel="stylesheet" href="assets/magnificpopup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/syntaxhighlighter/styles/shCore.css" />
+    <link rel="stylesheet" href="assets/syntaxhighlighter/styles/shThemeDefault.css" />
+
+	<!-- Documentation CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+
+	<!-- Header -->
+    <div id="header">
+        <h1><strong>FirstOne WordPress Theme</strong></h1>
+    </div>
+
+    <!-- Menu -->
+    <div id="doc-menu">
+
+        <ul class="nav">
+			<li class="section active"><span>1</span><a href="#s1">Introduction</a></li>
+			<li class="section"><span>2</span><a href="#s2">Documentation organization</a></li>
+			<li class="section"><span>3</span><a href="#s3">Initial Setup</a></li>
+			<li><span>3.1</span><a href="#s3e1">Install WordPress</a></li>
+			<li><span>3.2</span><a href="#s3e2">Install the FirstOne WP theme</a></li>
+			<li><span>3.3</span><a href="#s3e3">Install Plugins</a></li>
+			<li><span>3.4</span><a href="#s3e4">Configure Visual Composer</a></li>
+			<li><span>3.5</span><a href="#s3e5">Import Demo Content</a></li>
+			<li><span>3.6</span><a href="#s3e6">Permalinks Settings</a></li>
+			<li><span>3.7</span><a href="#s3e7">Set up the home and  blog</a></li>
+			<li><span>3.8</span><a href="#s3e8">Set up the main menu</a></li>
+			<li><span>3.9</span><a href="#s3e9">Change the logo</a></li>
+			<li><span>3.10</span><a href="#s3e10">Add Widgets</a></li>
+			<li class="section"><span>4</span><a href="#s4">Working with the Theme</a></li>
+			<li><span>4.1</span><a href="#s4e1">Page and Sidebar Managers</a></li>
+			<li><span>4.2</span><a href="#s4e2">Visual Composer</a></li>
+			<li><span>4.3</span><a href="#s4e3">Theme Options</a></li>
+			<li><span>4.4</span><a href="#s4e4">Page Header</a></li>
+                        <li><span>4.5</span><a href="#s4e5">Portfolio</a></li>
+			<li><span>4.6</span><a href="#s4e6">Revolution Slider</a></li>
+			<li><span>4.7</span><a href="#s4e7">Contact page / Contact form 7</a></li>
+			<li><span>4.8</span><a href="#s4e8">Translating the theme</a></li>
+			<li><span>4.9</span><a href="#s4e9">Color schemes</a></li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div id="doc-content" data-spy="scroll" data-target="#menu">
+
+<!-- ===================================================================================-->
+<!-- 1 Introduction -->
+<!-- ===================================================================================-->
+        
+        <div class="intro" id="s1">
+            <div class="vertical">
+                <h1>FirstOne WordPress <span>v1.0</span></h1>
+                <h2>Thank you for purchasing our theme.</h2>
+            </div>
+        </div>
+     
+<!-- ===================================================================================-->
+<!-- 2 Documentation Organization-->
+<!-- ===================================================================================-->
+
+		<h1 id="s2"><span>2</span>Documentation organization</h1>
+		
+		<p>The documentation is written in a step by step format. Once you finish reading it you will know how to install and customize the theme to your needs.</p>
+		
+<!-- ===================================================================================-->
+<!-- 3 Initial Setup-->
+<!-- ===================================================================================-->
+
+		<h1 id="s3"><span>3</span>Initial Setup</h1>
+
+<!-- ===================================================================================-->
+<!-- 3.1 Install WordPress-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e1"><span>3.1</span>Install WordPress</h2>
+		
+		<p> If you have not set up your Wordpress installation yet, download the latest Wordpress version here:  
+        <a href="http://wordpress.org/download/">http://wordpress.org/download/</a>.</p> 
+        
+        <p>You can find info on installing wordpress here: 
+        <a href="http://codex.wordpress.org/Installing_WordPress">http://codex.wordpress.org/Installing_WordPress</a>.<br> 
+        It is worth checking out their famous <a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">5 minute WP install tutorial</a>.</p>
+        
+        <p>Note:<strong> In this documentation I am assuming that Wordpress is installed directly in the root of your
+         server. If it is not, you may need to adapt some of the file and folder paths provided below in the documentation to reflect that.</strong></p>
+
+        <p>Note:<strong> I am assuming your starting point is a clean default wordpress instalation. Please only make configurations when you are asked to
+        as this will ensure that you install and configure the theme without a problem. Thanks!</strong></p> 
+
+<!-- ===================================================================================-->
+<!-- 3.2 Install the FirstOne WP theme-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e2"><span>3.2</span>Install the FirstOne WP theme</h2>
+		
+		<p>FirstOne can be installed in two different ways:</p>
+		<ol>
+		  <li>Installing through wordpress</li>
+		  <li>Uploading through FTP (File transfer protocol)</li>
+		</ol>	
+
+		<p>Note: because the themes file size is big, depending on some server configuration you might not be able to install it through WordPress and might need to upload it through ftp.</p>
+		
+		<h4>Installation through WordPress:</h4>
+
+		<p>Installing a theme through wordpress is quite a simple process. After you have logged into wordpress account and are ready to go, in the 
+		admin panel's sidebar navigate to appearance and then select themes. After that, click on the install themes tab and select upload from the 
+		navigation bar right below it. Click "choose file" button and locate your theme zip file (firstone-wp.zip) then hit install now. After FirstOne has
+		been installed locate and click activate.</p>
+		
+		<p class="center"><a href="screenshots/1.png" rel="magnificPopup"><img src="screenshots/1.png" /></a></p>
+		<p class="center"><a href="screenshots/2.png" rel="magnificPopup"><img src="screenshots/2.png" /></a><br><em>Install through WordPress</em></p>
+		
+		<h4>Installation Through FTP</h4>
+		
+		<ol>
+		  <li>Use an FTP client (for example filezilla) to access your host web server</li>
+		  <li>Transfer the /firstone-wp subfolder from /Theme to your server in the wp-content/themes</li>
+		  <li>Once the theme is uploaded, you need to activate it. Go to Appearance &gt; Themes and activate your uploaded theme.</li>
+		</ol>
+
+<!-- ===================================================================================-->
+<!-- 3.3 Install Plugins-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e3"><span>3.3</span>Install Plugins</h2>
+                
+		<p class="center"><a href="screenshots/3.png" rel="magnificPopup"><img src="screenshots/3.png" /></a><br><em>Install Reguired Plugins</em></p>
+		
+		<p>After you activate the FirstOne theme you will see a notice that the theme requires the <code>Visual Composer</code> and <code>Revolution Slider</code> Plugin and recommends Contact form 7. 
+		Click <strong>Begin installing plugins</strong> and follow the steps needed to install and activate the plugins.</p>
+
+<!-- ===================================================================================-->
+<!-- 3.4 Configure Visual Composer-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e4"><span>3.4</span>Configure Visual Composer</h2>
+		
+		<p class="center"><a href="screenshots/4.png" rel="magnificPopup"><img src="screenshots/4.png" /></a><br><em>Install Reguired Plugins</em></p>
+		
+		<p>You can control Visual Composer global settings such as disable/enable in a post type and user roles that can use a shortcode. </p>
+
+		<ul>
+			<li>
+				<strong>Content types :</strong>
+				<p>This option allows you to choose which post type should have the Visual Composer feature. Please note that only post types that have WP editor can use this feature, so for example slides will not have the Visual Composer feature.</p>
+			</li>
+			<li>
+				<strong>Rules for users groups :</strong>
+				<p>This option will give you the ability to select which shortcode should appear in the specific user role. This is useful when
+				you give subscribers the ability to post, because you can disable some shortcodes for them.</p>
+			</li>
+		</ul>
+		
+		<ol>
+			<li>Go to <strong>Settings -&gt; Visual Composer</strong></li>
+			<li>Check the <strong>portfolio</strong> checkbox from <strong>Content types</strong></li>
+			<li>Save Changes</li>
+		</ol>
+
+<!-- ===================================================================================-->
+<!-- 3.5 Import Demo Content-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e5"><span>3.5</span>Import Demo Content</h2>
+		
+		<p class="center"><a href="screenshots/5.png" rel="magnificPopup"><img src="screenshots/5.png" /></a></p>
+		
+		<p class="center"><a href="screenshots/6.png" rel="magnificPopup"><img src="screenshots/6.png" /></a><br><em>Install Demo Content</em></p>
+		
+		<ol>
+			<li>Go to <strong>Tools -&gt; Import</strong></li>
+			<li>Click on the WordPress and follow the instructions if Import plugin isn't installed yet (3.0+).</li>
+			<li>Browse the included <strong>firstone.wordpress.2015-03-13</strong> (XML file) from <strong>/Demo content/XML Sample Data</strong> and Upload the XML file.</li>
+			<li>You will first be asked to map the authors in this export file to users on the blog. For each author, you may choose to map to an existing user on the blog or to create a new user.</li>
+			<li>WordPress will then import each of the posts, page, custom post types, comments, and categories contained in this file into your blog.</li>
+			<li>Notice that the Sidebar and Footer Widgets are not replicated on your imported demo content. You should be the one to create the widgets. To create widgets, navigate to the left sidebar menu of the WordPress' Dashboard, then Appearance &gt; Widgets. Just drag and drop the widgets on to the widgets area on the right side of the widgets page.</li>
+			<li>After this, you should also update the Menus by going to Appearance &gt; Menus. Locate the Theme Locations box and select from the drop-down "FirstOne Menu" as respect to the locations the selectbox label indicates. Click the Save button under it to save the changes.</li>
+			<li>Done! You should now have the dummy/demo content similar from the Live Preview of the theme.</li>
+		</ol>
+
+		<p>After importing the demo content it is time to import the demo content for the revolution slider:</p>
+		
+		<p class="center"><a href="screenshots/6a.png" rel="magnificPopup"><img src="screenshots/6a.png" /></a><br><em>Import Slider</em></p>
+		<p class="center"><a href="screenshots/6b.png" rel="magnificPopup"><img src="screenshots/6b.png" /></a><br><em>Select demo slider to import</em></p>
+		
+		<ol>
+			<li>Go to <strong>Revolution Slider -&gt; Import Slider</strong></li>
+			<li>Browse the included <strong>home-slider.zip</strong> (zip file) from <strong>/02.demo-content</strong> and Upload it.</li>
+		</ol>
+		
+<!-- ===================================================================================-->
+<!-- 3.6 Permalinks Settings-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e6"><span>3.6</span>Permalinks Settings</h2>
+		
+		<p class="center"><a href="screenshots/7.png" rel="magnificPopup"><img src="screenshots/7.png" /></a><br><em>Permalink settings</em></p>
+		
+		<ol>
+			<li>Go in <strong>Settings &gt; Permalinks</strong></li>
+			<li>Choose the <strong>Post name</strong> from the permalink <strong>Common Settings</strong></li>
+			<li>Save Changes</li>
+		</ol>
+
+<!-- ===================================================================================-->
+<!-- 3.7 Set up the home and  blog-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e7"><span>3.7</span>Set up the home and blog</h2>
+		
+		<p class="center"><a href="screenshots/8.png" rel="magnificPopup"><img src="screenshots/8.png" /></a><br><em>Set up home page and blog page</em></p>
+		
+		<ol>
+			<li>Go to <strong>Settings &gt; Reading Settings</strong>.</li>
+			<li>Inside <strong>"Front page displays"</strong>, select <strong>"A static page"</strong></li>
+			<li>Assign "Home" page to "<strong>Front Page</strong>".</li>
+			<li>Assign "Blog" page to "<strong>Posts Page</strong>".</li>
+			<li>Save Changes</li>
+		</ol>
+
+<!-- ===================================================================================-->
+<!-- 3.8 Set up the main menu-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e8"><span>3.8</span>Set up the main menu</h2>
+		
+		
+		<p class="center"><a href="screenshots/9.png" rel="magnificPopup"><img src="screenshots/9.png" /></a><br><em>Set up main menu</em></p>
+		
+		<p>This Theme uses wordpress built-in menus feature which can be found in <strong>Appearance &gt; Menus</strong>.</p>
+		
+		<h4>How to add a new menu:</h4>
+		
+		<p>Create the menu:</p>
+                        
+		<ol>
+			<li>Go to <strong>Appearance &gt; Menus</strong></li>
+			<li>Add <strong>Menu Name</strong></li>
+			<li>Click <strong>Create Menu</strong></li>
+		</ol>
+		
+		<p>Assign the menu:</p>
+					
+		<ol>
+			<li>Go to <strong>Manage Locations</strong></li>
+			<li>Assign the menu to the "FirstOne Menu" Theme Location</li>
+		</ol>
+
+		<p>Add content in the menu:</p>
+				
+		<ol>
+			<li>Select the pages that you want in the menu</li>
+			<li>Add to Menu</li>
+			<li>If you want to add external links then use the Custom Links box</li>
+			<li>Re-arrange selected and created items. To make dropdowns just drag and drop an item under another and slightly to the right.</li>
+			<li>Save Menu</li>
+		</ol>
+		
+		<h4>If you imported the demo content:</h4>
+		
+		<p>If you imported the demo content you already have a menu and all you have to do is go in it's <strong>Menu settings &gt; Theme Locations</strong> and check the <strong>FirstOne Menu</strong> checkbox.</p>
+		
+                
+                <h4>Creating a one page menu(optional):</h4>
+                
+                <p>If you want link a section of a page in the menu, do the following:<br>
+                   -Open the "Edit" row button of the section you want linked.<br>
+                   -In the field "Row ID", write an ID (example: blog_section).<br>
+                   -Update the page.<br>
+                   -Go to "Appearance" -> "Menus". <br>
+                   -Click on "Links" in the left. <br>
+                   -In the "URL" field, write the ID name of the section with # in front (example: #blog_section).<br>
+                   -Write whatever name you want in the "Link Text" field.<br>
+                   -Save the menu and now this link will point to that section<br>
+                   (Please note that the links will point to the section only when the page containing the section is opened)
+                </p>
+                
+
+<!-- ===================================================================================-->
+<!-- 3.9 Change the logo-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e9"><span>3.9</span>Change the logo</h2>
+		
+		
+		<p class="center"><a href="screenshots/10.png" rel="magnificPopup"><img src="screenshots/10.png" /></a><br><em>Change the logo</em></p>
+		
+		<p>The logo image can be set in the <strong>Theme Options &gt; Header</strong></p>
+
+<!-- ===================================================================================-->
+<!-- 3.10 Add Widgets-->
+<!-- ===================================================================================-->
+
+		<h2 id="s3e10"><span>3.10</span>Add Widgets</h2>
+		
+		
+		<p class="center"><a href="screenshots/12.png" rel="magnificPopup"><img src="screenshots/12.png" /></a><br><em>Add widgets</em></p>
+		
+		<p>Use WordPress Widgets to add content and features to your Sidebars and Footer. Examples are the default widgets that come with WordPress; for example post categories, tag clouds, navigation, search, etc. Widgets require no code experience or expertise. They can be added, removed, and rearranged on the WordPress Administration <strong>Appearance &gt; Widgets</strong> panel.</p>
+
+		<h4>Guide to use widgets feature :</h4>
+
+		<ol>
+			<li>Go to Appearance &gt; Widgets.</li>
+			<li>Choose a Widget and drag it to the sidebar where you wish it to appear.</li>
+			<li>Once you dropped the widget to widget areas, WordPress automatically updates the Theme and it will appear in it's area.</li>
+			<li>Preview the site.</li>
+			<li>Return to the Widgets Panel to continue adding Widgets. FirstOne has 5 custom widgets. As you can see all have "FirstOne" prefixes.</li>
+			<li>To arrange the Widgets within the sidebar or Widget area, click and drag it into place.</li>
+			<li>To customize the Widget features, click the down arrow in the upper right corner to expand the Widget's interface.</li>
+			<li>To save the Widget's customization, click Save.</li>
+			<li>To remove the Widget, click Remove or Delete.</li>
+		</ol>
+
+<!-- ===================================================================================-->
+<!-- 4 Working with the Theme-->
+<!-- ===================================================================================-->
+
+		<h1 id="s4"><span>4</span>Working with the Theme</h1>
+
+<!-- ===================================================================================-->
+<!-- 4.1 Page and Sidebar Managers-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e1"><span>4.1</span>Page Layout and Sidebar Managers</h2>
+		
+		<p>Page layout and management is pretty simple to use as well:</p>
+		
+		
+		<p class="center"><a href="screenshots/15.png" rel="magnificPopup"><img src="screenshots/15.png" /></a><br><em>Page layout</em></p>
+		
+		<ol>
+			<li>While editing a Page or a Portfolio post, go to the Page Layout and Sidebar Manager section.</li>
+			<li>Choose a layout for the current page : LEFT SIDEBAR / NO SIDEBAR ( default choosen)/ RIGHT SIDEBAR.</li>
+			<li>If you select a LEFT / RIGHT SIDEBAR you have the option to select which sidebar to be used from a dropdown.</li>
+		</ol>
+		
+		
+		<p class="center"><a href="screenshots/16.png" rel="magnificPopup"><img src="screenshots/16.png" /></a><br><em>Sidebar management</em></p>
+		
+		<ol>
+			<li>In the Theme Options go to the Sidebars tab</li>
+			<li>Press the Add new sidebar buton to create a sidebar</li>
+			<li>You can also delete or edit sidebars you previously created</li>
+		</ol>
+		
+		<p>You can add widgets in these sidebars in Appearance &gt; Widgets</p>
+
+<!-- ===================================================================================-->
+<!-- 4.2 Visual Composer-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e2"><span>4.2</span>Visual Composer</h2>
+		
+		<p><a href="screenshots/17a.png" rel="magnificPopup"><img src="screenshots/17a.png" /></a><br><em><br>Visual composer Main Buttons</em></p>
+		
+		<p>Visual Composer is a visual shortcode generator that allows you to build your layout painlessly without wasting your time with writing shortcodes. In the Visual Composer editor mode you'll have the "Add element" button, which you should click or drag to the working canvas, to add content block or row to your page. Clicking the "Add element" button will show the content element selection menu. Content blocks are divided into categories so you can filter. Alternatively you can type the shortcode name to filter down the items instead of search them visually.</p>
+		
+		<p class="center"><a href="screenshots/17.png" rel="magnificPopup"><img src="screenshots/17.png" /></a><br><em>Visual composer Main Buttons</em></p>
+		
+		<p>Visual composer Main Buttons based on above screenshot:</p>
+		<ol>
+			<li><strong>Classic editor</strong> - The button to switch between classic and backend mode. So you can modify generated shortcodes manually if you know what you are doing.</li>
+			<li><strong>Adds Elements</strong> - use this button to drop all shortcodes avalaible in FirstOne. You can drag this button and drop to a row or a column.</li>			
+			<li><strong>Templates</strong> - you can save a page using this section and use it in other page. Its handy when you built blocks and columns that you might need them later in other pages.</li>
+                        <li><strong>Text Block</strong> - generates a new row with a text block in it.</li>
+                        <li><strong>Layout</strong> - you can select one of the predefined layouts and it will generate content, it is similar to a page template and the content can be modified.</li>
+                        <li><strong>Page Settings</strong> - allows you to write custom CSS rules for the current page.</li>
+		</ol>
+		
+		<hr>
+		
+		<p class="center"><a href="screenshots/18.png" rel="magnificPopup"><img src="screenshots/18.png" /></a><br><em>Visual Composer rows</em></p>
+		
+		<p>Rows</p>
+
+		<p>Rows are used to divide your page into the logic blocks with columns, columns later will hold your content blocks. Rows can be divided into the layouts (eg. 1/2 + 1/2, 1/3 + 1/3 + 1/3, and so on). Your page can have unlimited number of rows. To change row's position, click and drag row's drag handler (top left row's corner) and drag row around (vertical axis). Please note that you can edit a row property to enable full width option or image and parallax background. Now you can add shortcodes such as full width slideshow, Portfolio strip or divide a page with Page divider (fullwidth style).</p>
+
+		<p>Introducing Row based on above screenshot :</p>
+
+		<ol>
+		<li><strong>Delete</strong> button to delete the row and the all elements inside it.</li>
+		<li><strong>Clone Button</strong> to duplicate the row and all its columns and elements.</li>
+		<li><strong>Edit</strong> row button to give it custom class name and enable fullwidth mode.</li>
+                <li><strong>Toggle Row</strong> toggles the row elements visibility in the editor, the elements will still be displayed on site page.</li>
+		<li><strong>Dragger</strong> button used to move the row vertical wise.</li>
+		<li><strong>Layout selection</strong> to divide the row into different column width combinations.</li>
+                <li><strong>Add column</strong> button used to add a new column to the row.</li>
+                <li><strong>Edit column</strong> button used to modify the column inside the row.</li>
+		<li><strong>Plus</strong> button will bring up all elements pop up from which you can choose what to drop into this column.</li>
+		<li><strong>Delete this column</strong> button will remove the column and the elements inside it.</li>
+		</ol>
+		
+		
+		<p class="center"><a href="screenshots/21.png" rel="magnificPopup"><img src="screenshots/21.png" /></a><br><em>Enabled Parallax sections and fullwidth sections</em></p>
+		
+		<p>To add a fullwidth or parallax section:</p>
+		
+		<ol>
+			<li>Add a row</li>
+			<li>Click on the <strong>Edit</strong> row button</li>
+			<li>Check the <strong>Full Width</strong> checkbox</li>
+			<li>If you need the full width section to be a parallax section check the <strong>Parallax</strong> checkbox and add a background image to the row (it can be added from the "Design options" tab)</li>                       
+		</ol>
+		
+		<p class="center"><a href="screenshots/19.png" rel="magnificPopup"><img src="screenshots/19.png" /></a><br><em>Content Element blocks list</em></p>
+		
+		<p>The above is a list of available content elements that can be placed inside of the columns. Think of them as bricks. With those bricks you are building your layout. Most of the content elements have options, to set them click pencil icon. To save changes click save button.</p>
+		
+               
+		<p class="center"><a href="screenshots/20.png" rel="magnificPopup"><img src="screenshots/20.png" /></a><br><em>Element block</em></p>
+		
+		<p>Introducing Element blocks based on above screenshot :</p>
+		<ol>
+			<li>Delete Button to delete the shortcode</li>
+			<li>Clone button</li>
+			<li>Edit button to view all of the shortcode options</li>
+			<li>Shortcode Name</li>
+		</ol>
+		
+		<p>We extended the Visual Composer element list with the following:</p>
+                <ol>
+                       <li><strong>Message box</strong></li>
+                       <li><strong>Milestones</strong></li>
+                       <li><strong>Icon box</strong></li>
+                       <li><strong>Pie Chart</strong></li>
+                       <li><strong>Progress Bar</strong></li>
+                       <li><strong>Social Media</strong></li>
+                       <li><strong>Testimonial</strong></li>
+                       <li><strong>Pricing Table</strong></li>
+                       <li><strong>Portfolio</strong></li>
+                       <li><strong>Button(s)</strong></li>
+                       <li><strong>Team Member</strong></li>
+                       <li><strong>Our Process</strong></li>
+                       <li><strong>Posts Slider Container</strong></li>
+                       <li><strong>Previewer</strong></li>
+                       <li><strong>Testimonial Slider Container</strong></li>
+                       <li><strong>Headline</strong></li>
+                       <li><strong>Latest Tweets</strong></li>
+                       <li><strong>Recent Posts</strong></li>
+                       <li><strong>Animations Container</strong></li>
+		</ol>
+		
+		<p><strong>Animations Container</strong></p>
+                <p>This container will add animations to the components inside it<br>
+                You can chose an animations type, add a delay and a speed(in milliseconds),<br>
+                the offset is in percentage, no greater than 100 or smaller than 0.</p>
+
+<!-- ===================================================================================-->
+<!-- 4.3 Theme Options-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e3"><span>4.3</span>Theme Options</h2>
+		
+		<p>The theme options panel is very intuitive and user friendly so there is no need for much explaining.</p>
+                
+                <p class="center"><a href="screenshots/11.png" rel="magnificPopup"><img src="screenshots/11.png" /></a><br><em>Color Schemes</em></p>
+                
+                <p>The main colors of this theme can be easily changed through the Color Schemes tab.</p>
+                <p>You need to enable the color scheme first, otherwise the color selectors won't appear.</p>
+ 
+                
+<!-- ===================================================================================-->
+<!-- 4.4 Page Header-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e4"><span>4.4</span>Page Header</h2>
+		
+		
+		<p class="center"><a href="screenshots/13.png" rel="magnificPopup"><img src="screenshots/13.png" /></a><br><em>Add a page header</em></p>
+		
+		<p>Pages and portfolio posts can have a Page Header image and title that will be displayed below the site header.<br>
+                    It's a simple feature that can display a title an a chosen image at the top of the page content.<br>
+                    The page header display can be toggled on and off.</p>
+                
+ 
+                
+<!-- ===================================================================================-->
+<!-- 4.5 Portfolio-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e5"><span>4.5</span>Portfolio</h2>
+		
+		
+		<p class="center"><a href="screenshots/26.png" rel="magnificPopup"><img src="screenshots/26.png" /></a><br><em>Add a portfolio item</em></p>
+		
+		<p>The portfolio is created with a <a href="http://codex.wordpress.org/Post_Types"><strong>custom post</strong></a> type named Portfolio. 
+		It's basic functionality is the same as creating a new post.</p>
+                
+                <p> The portfolio component displays the featured images with 400x400 pixels resolution.</p>
+
+		<p>How to add a new portfolio item</p>
+		
+		<ol>
+			<li>Go to Portfolio &gt; Add new</li>
+			<li>Click on Visual Composer Button to switch to classic mode and edit the page</li>
+			<li>Add a featured image to it</li>
+			<li>(Optional) Add an excerpt to it. The excerpt should contain the description.</li>
+			<li>Include it in one or more categories.</li>
+			<li>Once you done editing click save.</li>
+		</ol>
+                
+               
+		
+<!-- ===================================================================================-->
+<!-- 4.6 Revolution Slider-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e6"><span>4.6</span>Revolution Slider</h2>
+		
+		<p>The demo content has already been loaded so all that remains is to edit the slides or create new ones. There is a special Visual Composer component for adding revolution slider on pages as well.</p>
+
+<!-- ===================================================================================-->
+<!-- 4.7 Contact page / Contact form 7-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e7"><span>4.7</span>Contact page / Contact form 7</h2>
+		
+		<p>The contact form on the contact page is created using the contact form 7 plugin. You will find the layout for it included in /02.demo-content</p>
+		
+		
+
+<!-- ===================================================================================-->
+<!-- 4.8 Translating the theme-->
+<!-- ===================================================================================-->
+
+		<h2 id="s4e8"><span>4.8</span>Translating the theme</h2>
+		
+		<p>FirstOne is localised and you can easily translate it to any language you like. Please note that the font family you are using in theme should
+		support the language's special characters. so you will need to use a fontface that supports it.</p>
+
+		<h4>Configure WordPress</h4>
+		
+		<p>Before translating your theme, you'll need to make sure WordPress is setup correctly with your locale.  Open wp-config.php from your wordpress
+		installation root folder and modify the line below, or add it if it is missing.  Complete lists of codes can be found at <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Country-Codes" title="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Country-Codes">(country codes)</a> and <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes" title="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes">(language codes</a>).</p>
+
+		<pre>
+/**
+ * WordPress Localized Language, defaults to English.
+ *
+ * Change this to localize WordPress. A corresponding MO file for the chosen
+ * language must be installed to wp-content/languages. For example, install
+ * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
+ * language support.
+ */
+define('WPLANG', '');
+		</pre>
+
+		<h4>Installing a Plugin</h4>
+
+		<p>Now you're ready to translate your theme. The easiest way to do this is by installing the 
+		<a href="http://wordpress.org/extend/plugins/codestyling-localization">Codestyling Localization plugin</a>. Install and activate the
+		plugin and go to Tools &gt; Localization (shown in your language). Read Plugin documentation on how to use it to translate
+		the theme. FirstOne's Textdomain is "firstone_domain". </p>
+
+		</div>
+
+    <script src='assets/jquery.min.js'></script>
+	
+	<script src="assets/scrollspy.js"></script>	
+    
+	<script src='assets/jquery.scrollTo.min.js'></script>
+    
+	<script src='assets/jquery.localscroll-1.2.7-min.js'></script>
+	
+	<script src="assets/magnificpopup/jquery.magnific-popup.min.js"></script>
+	
+	<script src="assets/syntaxhighlighter/scripts/shCore.js"></script>
+    <script src="assets/syntaxhighlighter/scripts/shBrushCss.js"></script>
+    <script src="assets/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+    <script src="assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+    <script src="assets/syntaxhighlighter/scripts/shBrushXml.js"></script>
+
+    <script type='text/javascript' src='assets/custom.js'></script>
+
+</body>
+</html>
