@@ -120,12 +120,17 @@
 		left: 0;
 		padding: 20px 0; 
 	}
+
+    .tp-bgimg {
+      background-image: url('/../../../../../fclb/wordpress/wp-content/uploads/2015/06/Congresso_Nacional_-_Bras¡lia-bg.png') !important;
+      background-size: cover;  
+    }
 		
 	/* Logo */
 
 	#logo { 
 		display: block;
-		width: 100%;
+		width: 100px;
 		-webkit-transition: all 0.5s;
 			 -o-transition: all 0.5s;
 				transition: all 0.5s;
