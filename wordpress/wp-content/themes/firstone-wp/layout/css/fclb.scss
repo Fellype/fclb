@@ -1,0 +1,23 @@
+$color-theme: #FFB500;
+
+#logo {
+	width: 50px;
+}
+
+.tp-caption {
+  .t-top, .t-bot {
+    color: white;
+  }
+	.t-top {
+		font-size: 118% !important;	
+		margin-left: -10px !important;
+	}
+	.t-mid {
+		margin-top: -5px !important;
+		color: $color-theme;
+	}
+	.t-bot {
+		font-size: 54% !important;
+		margin-top: -15px !important;
+	}
+}
