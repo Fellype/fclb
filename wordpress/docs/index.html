@@ -1,595 +1,526 @@
-<!doctype html>
-<html>
-<head>
-
-    <meta charset="UTF-8">
-    <title>FirstOne WP | Documentation</title>
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Google Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
-
-    <!-- Plugins CSS  -->
-    <link rel="stylesheet" href="assets/magnificpopup/magnific-popup.css">
-    <link rel="stylesheet" href="assets/syntaxhighlighter/styles/shCore.css" />
-    <link rel="stylesheet" href="assets/syntaxhighlighter/styles/shThemeDefault.css" />
-
-	<!-- Documentation CSS -->
-    <link rel="stylesheet" href="assets/style.css">
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>"xLander" Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:15px; }
+		.box p { margin-bottom:10px; }
+		.fakeLink { color: #21759b;text-decoration:underline;}
+	</style>
 </head>
+
+
 <body>
-
-	<!-- Header -->
-    <div id="header">
-        <h1><strong>FirstOne WordPress Theme</strong></h1>
-    </div>
-
-    <!-- Menu -->
-    <div id="doc-menu">
-
-        <ul class="nav">
-			<li class="section active"><span>1</span><a href="#s1">Introduction</a></li>
-			<li class="section"><span>2</span><a href="#s2">Documentation organization</a></li>
-			<li class="section"><span>3</span><a href="#s3">Initial Setup</a></li>
-			<li><span>3.1</span><a href="#s3e1">Install WordPress</a></li>
-			<li><span>3.2</span><a href="#s3e2">Install the FirstOne WP theme</a></li>
-			<li><span>3.3</span><a href="#s3e3">Install Plugins</a></li>
-			<li><span>3.4</span><a href="#s3e4">Configure Visual Composer</a></li>
-			<li><span>3.5</span><a href="#s3e5">Import Demo Content</a></li>
-			<li><span>3.6</span><a href="#s3e6">Permalinks Settings</a></li>
-			<li><span>3.7</span><a href="#s3e7">Set up the home and  blog</a></li>
-			<li><span>3.8</span><a href="#s3e8">Set up the main menu</a></li>
-			<li><span>3.9</span><a href="#s3e9">Change the logo</a></li>
-			<li><span>3.10</span><a href="#s3e10">Add Widgets</a></li>
-			<li class="section"><span>4</span><a href="#s4">Working with the Theme</a></li>
-			<li><span>4.1</span><a href="#s4e1">Page and Sidebar Managers</a></li>
-			<li><span>4.2</span><a href="#s4e2">Visual Composer</a></li>
-			<li><span>4.3</span><a href="#s4e3">Theme Options</a></li>
-			<li><span>4.4</span><a href="#s4e4">Page Header</a></li>
-                        <li><span>4.5</span><a href="#s4e5">Portfolio</a></li>
-			<li><span>4.6</span><a href="#s4e6">Revolution Slider</a></li>
-			<li><span>4.7</span><a href="#s4e7">Contact page / Contact form 7</a></li>
-			<li><span>4.8</span><a href="#s4e8">Translating the theme</a></li>
-			<li><span>4.9</span><a href="#s4e9">Color schemes</a></li>
-        </ul>
-    </div>
-
-    <!-- Content -->
-    <div id="doc-content" data-spy="scroll" data-target="#menu">
-
-<!-- ===================================================================================-->
-<!-- 1 Introduction -->
-<!-- ===================================================================================-->
-        
-        <div class="intro" id="s1">
-            <div class="vertical">
-                <h1>FirstOne WordPress <span>v1.0</span></h1>
-                <h2>Thank you for purchasing our theme.</h2>
-            </div>
-        </div>
-     
-<!-- ===================================================================================-->
-<!-- 2 Documentation Organization-->
-<!-- ===================================================================================-->
-
-		<h1 id="s2"><span>2</span>Documentation organization</h1>
-		
-		<p>The documentation is written in a step by step format. Once you finish reading it you will know how to install and customize the theme to your needs.</p>
-		
-<!-- ===================================================================================-->
-<!-- 3 Initial Setup-->
-<!-- ===================================================================================-->
-
-		<h1 id="s3"><span>3</span>Initial Setup</h1>
-
-<!-- ===================================================================================-->
-<!-- 3.1 Install WordPress-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e1"><span>3.1</span>Install WordPress</h2>
-		
-		<p> If you have not set up your Wordpress installation yet, download the latest Wordpress version here:  
-        <a href="http://wordpress.org/download/">http://wordpress.org/download/</a>.</p> 
-        
-        <p>You can find info on installing wordpress here: 
-        <a href="http://codex.wordpress.org/Installing_WordPress">http://codex.wordpress.org/Installing_WordPress</a>.<br> 
-        It is worth checking out their famous <a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">5 minute WP install tutorial</a>.</p>
-        
-        <p>Note:<strong> In this documentation I am assuming that Wordpress is installed directly in the root of your
-         server. If it is not, you may need to adapt some of the file and folder paths provided below in the documentation to reflect that.</strong></p>
-
-        <p>Note:<strong> I am assuming your starting point is a clean default wordpress instalation. Please only make configurations when you are asked to
-        as this will ensure that you install and configure the theme without a problem. Thanks!</strong></p> 
-
-<!-- ===================================================================================-->
-<!-- 3.2 Install the FirstOne WP theme-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e2"><span>3.2</span>Install the FirstOne WP theme</h2>
-		
-		<p>FirstOne can be installed in two different ways:</p>
-		<ol>
-		  <li>Installing through wordpress</li>
-		  <li>Uploading through FTP (File transfer protocol)</li>
-		</ol>	
-
-		<p>Note: because the themes file size is big, depending on some server configuration you might not be able to install it through WordPress and might need to upload it through ftp.</p>
-		
-		<h4>Installation through WordPress:</h4>
-
-		<p>Installing a theme through wordpress is quite a simple process. After you have logged into wordpress account and are ready to go, in the 
-		admin panel's sidebar navigate to appearance and then select themes. After that, click on the install themes tab and select upload from the 
-		navigation bar right below it. Click "choose file" button and locate your theme zip file (firstone-wp.zip) then hit install now. After FirstOne has
-		been installed locate and click activate.</p>
-		
-		<p class="center"><a href="screenshots/1.png" rel="magnificPopup"><img src="screenshots/1.png" /></a></p>
-		<p class="center"><a href="screenshots/2.png" rel="magnificPopup"><img src="screenshots/2.png" /></a><br><em>Install through WordPress</em></p>
-		
-		<h4>Installation Through FTP</h4>
-		
-		<ol>
-		  <li>Use an FTP client (for example filezilla) to access your host web server</li>
-		  <li>Transfer the /firstone-wp subfolder from /Theme to your server in the wp-content/themes</li>
-		  <li>Once the theme is uploaded, you need to activate it. Go to Appearance &gt; Themes and activate your uploaded theme.</li>
-		</ol>
-
-<!-- ===================================================================================-->
-<!-- 3.3 Install Plugins-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e3"><span>3.3</span>Install Plugins</h2>
-                
-		<p class="center"><a href="screenshots/3.png" rel="magnificPopup"><img src="screenshots/3.png" /></a><br><em>Install Reguired Plugins</em></p>
-		
-		<p>After you activate the FirstOne theme you will see a notice that the theme requires the <code>Visual Composer</code> and <code>Revolution Slider</code> Plugin and recommends Contact form 7. 
-		Click <strong>Begin installing plugins</strong> and follow the steps needed to install and activate the plugins.</p>
-
-<!-- ===================================================================================-->
-<!-- 3.4 Configure Visual Composer-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e4"><span>3.4</span>Configure Visual Composer</h2>
-		
-		<p class="center"><a href="screenshots/4.png" rel="magnificPopup"><img src="screenshots/4.png" /></a><br><em>Install Reguired Plugins</em></p>
-		
-		<p>You can control Visual Composer global settings such as disable/enable in a post type and user roles that can use a shortcode. </p>
-
-		<ul>
-			<li>
-				<strong>Content types :</strong>
-				<p>This option allows you to choose which post type should have the Visual Composer feature. Please note that only post types that have WP editor can use this feature, so for example slides will not have the Visual Composer feature.</p>
-			</li>
-			<li>
-				<strong>Rules for users groups :</strong>
-				<p>This option will give you the ability to select which shortcode should appear in the specific user role. This is useful when
-				you give subscribers the ability to post, because you can disable some shortcodes for them.</p>
-			</li>
-		</ul>
-		
-		<ol>
-			<li>Go to <strong>Settings -&gt; Visual Composer</strong></li>
-			<li>Check the <strong>portfolio</strong> checkbox from <strong>Content types</strong></li>
-			<li>Save Changes</li>
-		</ol>
-
-<!-- ===================================================================================-->
-<!-- 3.5 Import Demo Content-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e5"><span>3.5</span>Import Demo Content</h2>
-		
-		<p class="center"><a href="screenshots/5.png" rel="magnificPopup"><img src="screenshots/5.png" /></a></p>
-		
-		<p class="center"><a href="screenshots/6.png" rel="magnificPopup"><img src="screenshots/6.png" /></a><br><em>Install Demo Content</em></p>
-		
-		<ol>
-			<li>Go to <strong>Tools -&gt; Import</strong></li>
-			<li>Click on the WordPress and follow the instructions if Import plugin isn't installed yet (3.0+).</li>
-			<li>Browse the included <strong>firstone.wordpress.2015-03-13</strong> (XML file) from <strong>/Demo content/XML Sample Data</strong> and Upload the XML file.</li>
-			<li>You will first be asked to map the authors in this export file to users on the blog. For each author, you may choose to map to an existing user on the blog or to create a new user.</li>
-			<li>WordPress will then import each of the posts, page, custom post types, comments, and categories contained in this file into your blog.</li>
-			<li>Notice that the Sidebar and Footer Widgets are not replicated on your imported demo content. You should be the one to create the widgets. To create widgets, navigate to the left sidebar menu of the WordPress' Dashboard, then Appearance &gt; Widgets. Just drag and drop the widgets on to the widgets area on the right side of the widgets page.</li>
-			<li>After this, you should also update the Menus by going to Appearance &gt; Menus. Locate the Theme Locations box and select from the drop-down "FirstOne Menu" as respect to the locations the selectbox label indicates. Click the Save button under it to save the changes.</li>
-			<li>Done! You should now have the dummy/demo content similar from the Live Preview of the theme.</li>
-		</ol>
-
-		<p>After importing the demo content it is time to import the demo content for the revolution slider:</p>
-		
-		<p class="center"><a href="screenshots/6a.png" rel="magnificPopup"><img src="screenshots/6a.png" /></a><br><em>Import Slider</em></p>
-		<p class="center"><a href="screenshots/6b.png" rel="magnificPopup"><img src="screenshots/6b.png" /></a><br><em>Select demo slider to import</em></p>
-		
-		<ol>
-			<li>Go to <strong>Revolution Slider -&gt; Import Slider</strong></li>
-			<li>Browse the included <strong>home-slider.zip</strong> (zip file) from <strong>/02.demo-content</strong> and Upload it.</li>
-		</ol>
-		
-<!-- ===================================================================================-->
-<!-- 3.6 Permalinks Settings-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e6"><span>3.6</span>Permalinks Settings</h2>
-		
-		<p class="center"><a href="screenshots/7.png" rel="magnificPopup"><img src="screenshots/7.png" /></a><br><em>Permalink settings</em></p>
-		
-		<ol>
-			<li>Go in <strong>Settings &gt; Permalinks</strong></li>
-			<li>Choose the <strong>Post name</strong> from the permalink <strong>Common Settings</strong></li>
-			<li>Save Changes</li>
-		</ol>
-
-<!-- ===================================================================================-->
-<!-- 3.7 Set up the home and  blog-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e7"><span>3.7</span>Set up the home and blog</h2>
-		
-		<p class="center"><a href="screenshots/8.png" rel="magnificPopup"><img src="screenshots/8.png" /></a><br><em>Set up home page and blog page</em></p>
-		
-		<ol>
-			<li>Go to <strong>Settings &gt; Reading Settings</strong>.</li>
-			<li>Inside <strong>"Front page displays"</strong>, select <strong>"A static page"</strong></li>
-			<li>Assign "Home" page to "<strong>Front Page</strong>".</li>
-			<li>Assign "Blog" page to "<strong>Posts Page</strong>".</li>
-			<li>Save Changes</li>
-		</ol>
-
-<!-- ===================================================================================-->
-<!-- 3.8 Set up the main menu-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e8"><span>3.8</span>Set up the main menu</h2>
-		
-		
-		<p class="center"><a href="screenshots/9.png" rel="magnificPopup"><img src="screenshots/9.png" /></a><br><em>Set up main menu</em></p>
-		
-		<p>This Theme uses wordpress built-in menus feature which can be found in <strong>Appearance &gt; Menus</strong>.</p>
-		
-		<h4>How to add a new menu:</h4>
-		
-		<p>Create the menu:</p>
-                        
-		<ol>
-			<li>Go to <strong>Appearance &gt; Menus</strong></li>
-			<li>Add <strong>Menu Name</strong></li>
-			<li>Click <strong>Create Menu</strong></li>
-		</ol>
-		
-		<p>Assign the menu:</p>
-					
-		<ol>
-			<li>Go to <strong>Manage Locations</strong></li>
-			<li>Assign the menu to the "FirstOne Menu" Theme Location</li>
-		</ol>
-
-		<p>Add content in the menu:</p>
-				
-		<ol>
-			<li>Select the pages that you want in the menu</li>
-			<li>Add to Menu</li>
-			<li>If you want to add external links then use the Custom Links box</li>
-			<li>Re-arrange selected and created items. To make dropdowns just drag and drop an item under another and slightly to the right.</li>
-			<li>Save Menu</li>
-		</ol>
-		
-		<h4>If you imported the demo content:</h4>
-		
-		<p>If you imported the demo content you already have a menu and all you have to do is go in it's <strong>Menu settings &gt; Theme Locations</strong> and check the <strong>FirstOne Menu</strong> checkbox.</p>
-		
-                
-                <h4>Creating a one page menu(optional):</h4>
-                
-                <p>If you want link a section of a page in the menu, do the following:<br>
-                   -Open the "Edit" row button of the section you want linked.<br>
-                   -In the field "Row ID", write an ID (example: blog_section).<br>
-                   -Update the page.<br>
-                   -Go to "Appearance" -> "Menus". <br>
-                   -Click on "Links" in the left. <br>
-                   -In the "URL" field, write the ID name of the section with # in front (example: #blog_section).<br>
-                   -Write whatever name you want in the "Link Text" field.<br>
-                   -Save the menu and now this link will point to that section<br>
-                   (Please note that the links will point to the section only when the page containing the section is opened)
-                </p>
-                
-
-<!-- ===================================================================================-->
-<!-- 3.9 Change the logo-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e9"><span>3.9</span>Change the logo</h2>
-		
-		
-		<p class="center"><a href="screenshots/10.png" rel="magnificPopup"><img src="screenshots/10.png" /></a><br><em>Change the logo</em></p>
-		
-		<p>The logo image can be set in the <strong>Theme Options &gt; Header</strong></p>
-
-<!-- ===================================================================================-->
-<!-- 3.10 Add Widgets-->
-<!-- ===================================================================================-->
-
-		<h2 id="s3e10"><span>3.10</span>Add Widgets</h2>
-		
-		
-		<p class="center"><a href="screenshots/12.png" rel="magnificPopup"><img src="screenshots/12.png" /></a><br><em>Add widgets</em></p>
-		
-		<p>Use WordPress Widgets to add content and features to your Sidebars and Footer. Examples are the default widgets that come with WordPress; for example post categories, tag clouds, navigation, search, etc. Widgets require no code experience or expertise. They can be added, removed, and rearranged on the WordPress Administration <strong>Appearance &gt; Widgets</strong> panel.</p>
-
-		<h4>Guide to use widgets feature :</h4>
-
-		<ol>
-			<li>Go to Appearance &gt; Widgets.</li>
-			<li>Choose a Widget and drag it to the sidebar where you wish it to appear.</li>
-			<li>Once you dropped the widget to widget areas, WordPress automatically updates the Theme and it will appear in it's area.</li>
-			<li>Preview the site.</li>
-			<li>Return to the Widgets Panel to continue adding Widgets. FirstOne has 5 custom widgets. As you can see all have "FirstOne" prefixes.</li>
-			<li>To arrange the Widgets within the sidebar or Widget area, click and drag it into place.</li>
-			<li>To customize the Widget features, click the down arrow in the upper right corner to expand the Widget's interface.</li>
-			<li>To save the Widget's customization, click Save.</li>
-			<li>To remove the Widget, click Remove or Delete.</li>
-		</ol>
-
-<!-- ===================================================================================-->
-<!-- 4 Working with the Theme-->
-<!-- ===================================================================================-->
-
-		<h1 id="s4"><span>4</span>Working with the Theme</h1>
-
-<!-- ===================================================================================-->
-<!-- 4.1 Page and Sidebar Managers-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e1"><span>4.1</span>Page Layout and Sidebar Managers</h2>
-		
-		<p>Page layout and management is pretty simple to use as well:</p>
-		
-		
-		<p class="center"><a href="screenshots/15.png" rel="magnificPopup"><img src="screenshots/15.png" /></a><br><em>Page layout</em></p>
-		
-		<ol>
-			<li>While editing a Page or a Portfolio post, go to the Page Layout and Sidebar Manager section.</li>
-			<li>Choose a layout for the current page : LEFT SIDEBAR / NO SIDEBAR ( default choosen)/ RIGHT SIDEBAR.</li>
-			<li>If you select a LEFT / RIGHT SIDEBAR you have the option to select which sidebar to be used from a dropdown.</li>
-		</ol>
-		
-		
-		<p class="center"><a href="screenshots/16.png" rel="magnificPopup"><img src="screenshots/16.png" /></a><br><em>Sidebar management</em></p>
-		
-		<ol>
-			<li>In the Theme Options go to the Sidebars tab</li>
-			<li>Press the Add new sidebar buton to create a sidebar</li>
-			<li>You can also delete or edit sidebars you previously created</li>
-		</ol>
-		
-		<p>You can add widgets in these sidebars in Appearance &gt; Widgets</p>
-
-<!-- ===================================================================================-->
-<!-- 4.2 Visual Composer-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e2"><span>4.2</span>Visual Composer</h2>
-		
-		<p><a href="screenshots/17a.png" rel="magnificPopup"><img src="screenshots/17a.png" /></a><br><em><br>Visual composer Main Buttons</em></p>
-		
-		<p>Visual Composer is a visual shortcode generator that allows you to build your layout painlessly without wasting your time with writing shortcodes. In the Visual Composer editor mode you'll have the "Add element" button, which you should click or drag to the working canvas, to add content block or row to your page. Clicking the "Add element" button will show the content element selection menu. Content blocks are divided into categories so you can filter. Alternatively you can type the shortcode name to filter down the items instead of search them visually.</p>
-		
-		<p class="center"><a href="screenshots/17.png" rel="magnificPopup"><img src="screenshots/17.png" /></a><br><em>Visual composer Main Buttons</em></p>
-		
-		<p>Visual composer Main Buttons based on above screenshot:</p>
-		<ol>
-			<li><strong>Classic editor</strong> - The button to switch between classic and backend mode. So you can modify generated shortcodes manually if you know what you are doing.</li>
-			<li><strong>Adds Elements</strong> - use this button to drop all shortcodes avalaible in FirstOne. You can drag this button and drop to a row or a column.</li>			
-			<li><strong>Templates</strong> - you can save a page using this section and use it in other page. Its handy when you built blocks and columns that you might need them later in other pages.</li>
-                        <li><strong>Text Block</strong> - generates a new row with a text block in it.</li>
-                        <li><strong>Layout</strong> - you can select one of the predefined layouts and it will generate content, it is similar to a page template and the content can be modified.</li>
-                        <li><strong>Page Settings</strong> - allows you to write custom CSS rules for the current page.</li>
-		</ol>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;xLander&rdquo; Documentation by &ldquo;Whoathemes&rdquo; v1.0</h3>
 		
 		<hr>
 		
-		<p class="center"><a href="screenshots/18.png" rel="magnificPopup"><img src="screenshots/18.png" /></a><br><em>Visual Composer rows</em></p>
+		<h1 class="center">&ldquo;xLander One-Page Theme&rdquo;</h1>
 		
-		<p>Rows</p>
-
-		<p>Rows are used to divide your page into the logic blocks with columns, columns later will hold your content blocks. Rows can be divided into the layouts (eg. 1/2 + 1/2, 1/3 + 1/3 + 1/3, and so on). Your page can have unlimited number of rows. To change row's position, click and drag row's drag handler (top left row's corner) and drag row around (vertical axis). Please note that you can edit a row property to enable full width option or image and parallax background. Now you can add shortcodes such as full width slideshow, Portfolio strip or divide a page with Page divider (fullwidth style).</p>
-
-		<p>Introducing Row based on above screenshot :</p>
-
-		<ol>
-		<li><strong>Delete</strong> button to delete the row and the all elements inside it.</li>
-		<li><strong>Clone Button</strong> to duplicate the row and all its columns and elements.</li>
-		<li><strong>Edit</strong> row button to give it custom class name and enable fullwidth mode.</li>
-                <li><strong>Toggle Row</strong> toggles the row elements visibility in the editor, the elements will still be displayed on site page.</li>
-		<li><strong>Dragger</strong> button used to move the row vertical wise.</li>
-		<li><strong>Layout selection</strong> to divide the row into different column width combinations.</li>
-                <li><strong>Add column</strong> button used to add a new column to the row.</li>
-                <li><strong>Edit column</strong> button used to modify the column inside the row.</li>
-		<li><strong>Plus</strong> button will bring up all elements pop up from which you can choose what to drop into this column.</li>
-		<li><strong>Delete this column</strong> button will remove the column and the elements inside it.</li>
+		<div class="borderTop">
+			<div class="span-7 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 28/01/2015<br>
+					By: WhoaThemes<br>
+					Contact: <a href="https://whoathemes.ticksy.com/" target="_blank">Whoathemes</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-15 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://www.themeforest.com/user/whoathemes" target="_blank">here</a>. You find me on <a href="http://twitter.com/whoa_themes" target="_blank">twitter</a> or  <a href="http://www.facebook.com/WhoaThemes" target="_blank">facebook</a> to get the updates. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+        <div class="span-8">
+		<ol class="none">
+			<li><a href="#installation">A. Installation</a></li>
+            <li><a href="#quick">B. Quick Setup</a></li>
+			<li><a href="#portfolio">C. Add Portfolio Item</a></li>
+			<li><a href="#general">D. General Options</a></li> 
+			<li><a href="#blog">E. Blog Options</a></li>
 		</ol>
-		
-		
-		<p class="center"><a href="screenshots/21.png" rel="magnificPopup"><img src="screenshots/21.png" /></a><br><em>Enabled Parallax sections and fullwidth sections</em></p>
-		
-		<p>To add a fullwidth or parallax section:</p>
-		
-		<ol>
-			<li>Add a row</li>
-			<li>Click on the <strong>Edit</strong> row button</li>
-			<li>Check the <strong>Full Width</strong> checkbox</li>
-			<li>If you need the full width section to be a parallax section check the <strong>Parallax</strong> checkbox and add a background image to the row (it can be added from the "Design options" tab)</li>                       
-		</ol>
-		
-		<p class="center"><a href="screenshots/19.png" rel="magnificPopup"><img src="screenshots/19.png" /></a><br><em>Content Element blocks list</em></p>
-		
-		<p>The above is a list of available content elements that can be placed inside of the columns. Think of them as bricks. With those bricks you are building your layout. Most of the content elements have options, to set them click pencil icon. To save changes click save button.</p>
-		
-               
-		<p class="center"><a href="screenshots/20.png" rel="magnificPopup"><img src="screenshots/20.png" /></a><br><em>Element block</em></p>
-		
-		<p>Introducing Element blocks based on above screenshot :</p>
-		<ol>
-			<li>Delete Button to delete the shortcode</li>
-			<li>Clone button</li>
-			<li>Edit button to view all of the shortcode options</li>
-			<li>Shortcode Name</li>
-		</ol>
-		
-		<p>We extended the Visual Composer element list with the following:</p>
-                <ol>
-                       <li><strong>Message box</strong></li>
-                       <li><strong>Milestones</strong></li>
-                       <li><strong>Icon box</strong></li>
-                       <li><strong>Pie Chart</strong></li>
-                       <li><strong>Progress Bar</strong></li>
-                       <li><strong>Social Media</strong></li>
-                       <li><strong>Testimonial</strong></li>
-                       <li><strong>Pricing Table</strong></li>
-                       <li><strong>Portfolio</strong></li>
-                       <li><strong>Button(s)</strong></li>
-                       <li><strong>Team Member</strong></li>
-                       <li><strong>Our Process</strong></li>
-                       <li><strong>Posts Slider Container</strong></li>
-                       <li><strong>Previewer</strong></li>
-                       <li><strong>Testimonial Slider Container</strong></li>
-                       <li><strong>Headline</strong></li>
-                       <li><strong>Latest Tweets</strong></li>
-                       <li><strong>Recent Posts</strong></li>
-                       <li><strong>Animations Container</strong></li>
-		</ol>
-		
-		<p><strong>Animations Container</strong></p>
-                <p>This container will add animations to the components inside it<br>
-                You can chose an animations type, add a delay and a speed(in milliseconds),<br>
-                the offset is in percentage, no greater than 100 or smaller than 0.</p>
-
-<!-- ===================================================================================-->
-<!-- 4.3 Theme Options-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e3"><span>4.3</span>Theme Options</h2>
-		
-		<p>The theme options panel is very intuitive and user friendly so there is no need for much explaining.</p>
-                
-                <p class="center"><a href="screenshots/11.png" rel="magnificPopup"><img src="screenshots/11.png" /></a><br><em>Color Schemes</em></p>
-                
-                <p>The main colors of this theme can be easily changed through the Color Schemes tab.</p>
-                <p>You need to enable the color scheme first, otherwise the color selectors won't appear.</p>
- 
-                
-<!-- ===================================================================================-->
-<!-- 4.4 Page Header-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e4"><span>4.4</span>Page Header</h2>
-		
-		
-		<p class="center"><a href="screenshots/13.png" rel="magnificPopup"><img src="screenshots/13.png" /></a><br><em>Add a page header</em></p>
-		
-		<p>Pages and portfolio posts can have a Page Header image and title that will be displayed below the site header.<br>
-                    It's a simple feature that can display a title an a chosen image at the top of the page content.<br>
-                    The page header display can be toggled on and off.</p>
-                
- 
-                
-<!-- ===================================================================================-->
-<!-- 4.5 Portfolio-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e5"><span>4.5</span>Portfolio</h2>
-		
-		
-		<p class="center"><a href="screenshots/26.png" rel="magnificPopup"><img src="screenshots/26.png" /></a><br><em>Add a portfolio item</em></p>
-		
-		<p>The portfolio is created with a <a href="http://codex.wordpress.org/Post_Types"><strong>custom post</strong></a> type named Portfolio. 
-		It's basic functionality is the same as creating a new post.</p>
-                
-                <p> The portfolio component displays the featured images with 400x400 pixels resolution.</p>
-
-		<p>How to add a new portfolio item</p>
-		
-		<ol>
-			<li>Go to Portfolio &gt; Add new</li>
-			<li>Click on Visual Composer Button to switch to classic mode and edit the page</li>
-			<li>Add a featured image to it</li>
-			<li>(Optional) Add an excerpt to it. The excerpt should contain the description.</li>
-			<li>Include it in one or more categories.</li>
-			<li>Once you done editing click save.</li>
-		</ol>
-                
-               
-		
-<!-- ===================================================================================-->
-<!-- 4.6 Revolution Slider-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e6"><span>4.6</span>Revolution Slider</h2>
-		
-		<p>The demo content has already been loaded so all that remains is to edit the slides or create new ones. There is a special Visual Composer component for adding revolution slider on pages as well.</p>
-
-<!-- ===================================================================================-->
-<!-- 4.7 Contact page / Contact form 7-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e7"><span>4.7</span>Contact page / Contact form 7</h2>
-		
-		<p>The contact form on the contact page is created using the contact form 7 plugin. You will find the layout for it included in /02.demo-content</p>
-		
-		
-
-<!-- ===================================================================================-->
-<!-- 4.8 Translating the theme-->
-<!-- ===================================================================================-->
-
-		<h2 id="s4e8"><span>4.8</span>Translating the theme</h2>
-		
-		<p>FirstOne is localised and you can easily translate it to any language you like. Please note that the font family you are using in theme should
-		support the language's special characters. so you will need to use a fontface that supports it.</p>
-
-		<h4>Configure WordPress</h4>
-		
-		<p>Before translating your theme, you'll need to make sure WordPress is setup correctly with your locale.  Open wp-config.php from your wordpress
-		installation root folder and modify the line below, or add it if it is missing.  Complete lists of codes can be found at <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Country-Codes" title="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Country-Codes">(country codes)</a> and <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes" title="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes">(language codes</a>).</p>
-
-		<pre>
-/**
- * WordPress Localized Language, defaults to English.
- *
- * Change this to localize WordPress. A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
- * language support.
- */
-define('WPLANG', '');
-		</pre>
-
-		<h4>Installing a Plugin</h4>
-
-		<p>Now you're ready to translate your theme. The easiest way to do this is by installing the 
-		<a href="http://wordpress.org/extend/plugins/codestyling-localization">Codestyling Localization plugin</a>. Install and activate the
-		plugin and go to Tools &gt; Localization (shown in your language). Read Plugin documentation on how to use it to translate
-		the theme. FirstOne's Textdomain is "firstone_domain". </p>
-
 		</div>
+          <div class="span-8">
+		<ol class="none">
+			<li><a href="#portfolioOptions">G. Portfolio Options</a></li>
+            <li><a href="#font">H. Font Options</a></li>
+			<li><a href="#background">I. Background Options</a></li>
+			<li><a href="#color">J. Color Options</a></li>
+			<li><a href="#sidebar">K. Sidebar Options</a></li>
+		</ol>
+		</div>
+          <div class="span-8">
+		<ol class="none">
+			<li><a href="#footer">L. Footer Options</a></li>
+			<li><a href="#widgets">M. Widgets</a></li>
+            <li><a href="#pages">N. Create Pages</a></li>
+			<li><a href="#translation">O. Translation</a></li>
+			<li><a href="#credits">P. Sources and Credit</a></li>
+			<!--li><a href="#templates">Q. Template Pages</a></li-->
+		</ol>
+		</div>
+        
+		<hr>
+        
+        <div class="span-24">
+		<h3 id="installation"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+        <p><strong>IMPORTANT</strong>: Make sure you <strong>unzip</strong> the downloaded file from Themeforest first (DON'T upload it to your server yet).  The content of this file contains the actual theme zip file called &quot;xlander.zip&quot;. This is the theme file. Now, to install the theme follow one of the following two methods:</p>
+        <ol>
+          <li>Unzip the <strong>xlander.zip</strong> and upload the <strong>xlander/</strong> folder to <strong>&lt;wordpress install directory&gt;/wp-content/themes/</strong> with your favorite FTP client.</li>
+          <li>Method 2, Upload the <strong>xlander.zip</strong> file through the WordPress admin backend (This will ONLY work if the server that hosts your website allows upload limits greater than 6 MB. <strong>Please note, most hosting providers have only up to 2MB file upload limit</strong>):
+          </li>
+        </ol>
+          	<div align="center"> 
+                <img src="assets/images/challenge-upload.jpg" alt="Simple-Upload" width="621" height="440">
+            </div>
+        </div>
+       <hr>
+			<p>Once the upload is complete go to the WordPress administrator backend and <strong>activate</strong> the theme
+            (the theme should appear now under <strong>Appearances &rarr; Themes</strong>)</p>
+            <div align="center">
+              <p><img src="assets/images/activate-theme.jpg" alt="activate" width="354" height="286"></p>
+            </div>
+       <hr>
+            <p>The theme's options page should appear above Appearence Tab under the name: <strong>Whoathemes</strong>:</p>
+            <p align="center"><img src="assets/images/wt-options.jpg" width="162" height="266" alt="Simple-Options"></p>
+		
+      	
+		<h4><strong>Installation of the Demo Content</strong></h4>
+        <ol>
+          <li>Locate the <strong>demo.xml</strong> file in the demo folder of the zip package.</li>
+          <li>Go to Tool &rarr; Import module in your backend, click the WordPress option.</li>
+          <li>Then add the demo.xml file to the Choose a file from your computer option and click the upload the file and import button.</li>
+        </ol>
+        <p>If you need help installing Wordpress see the link below:<br><a href="http://codex.wordpress.org/Installing_WordPress">http://codex.wordpress.org/Installing_WordPress</a></p>
+         <hr>	
+         <h4><strong>Navigation</strong></h4>
 
-    <script src='assets/jquery.min.js'></script>
-	
-	<script src="assets/scrollspy.js"></script>	
-    
-	<script src='assets/jquery.scrollTo.min.js'></script>
-    
-	<script src='assets/jquery.localscroll-1.2.7-min.js'></script>
-	
-	<script src="assets/magnificpopup/jquery.magnific-popup.min.js"></script>
-	
-	<script src="assets/syntaxhighlighter/scripts/shCore.js"></script>
-    <script src="assets/syntaxhighlighter/scripts/shBrushCss.js"></script>
-    <script src="assets/syntaxhighlighter/scripts/shBrushJScript.js"></script>
-    <script src="assets/syntaxhighlighter/scripts/shBrushPhp.js"></script>
-    <script src="assets/syntaxhighlighter/scripts/shBrushXml.js"></script>
+		<p>If you use version 3.0+ of WordPress, you can setup custom menus to use with our theme. "Simple" comes with 1 custom menu location. "Main Navigation" is used for the site's main navigation. </p>
+        <p>As shown above, I named the menu "Main Navigation" but you can call it as you prefer. The important thing is to select it in the "Template Locations" box:</p> 
+        
+		<div align="center">
+          <p><img src="assets/images/theme-location.jpg" alt="Theme Location" width="691" height="304"></p>
+        </div> 
+<hr>
 
-    <script type='text/javascript' src='assets/custom.js'></script>
+        <h3 id="quick"><strong>B) Quick theme setup</strong> - <a href="#toc">top</a></h3>
+        <ol>
 
+          <li>Install the plugins required and recomended from the theme</li>
+          <li>By default Visual Composer is active for Pages, in order to activate Visual Composer for posts please go to Settings/Visual Composer and choose either you want to use Visual Composer for pages, posts or both. Moreover, you can also use Visual Composer for custom posts too. Watch video on how to edit Visual Composer usage settings.</li>
+          <li>How to activate one page layout:<br>
+          <!--li>See what widgets I've used for blog and portfolio single <a href="#widgets"><strong>here.</strong></a></li-->
+              - in Settings -> Reading it's set to "Front page displays" to <strong>Your latest posts</strong><br>
+              - you have a menu activated in <strong>Appearance -> Menus</strong><br>
+              - you have a homepage in <strong>Whoathemes -> General -> Homepage</strong><br>
+          </li>
+          <li><strong>The content on the homepage</strong> it's added from the pages you have in Appearance -> Menus. </li>
+		  <li>You can control what content you need on homepage by adding / deleting or reorder pages in Appearance -> Menus. </li>
+          <li>You can find revolution slider sample in documentation folder - homeRevolutionSlider.zip<br>
+          <li>Go to Plugins -> Add New and install Contact Form 7 plugin<br>
+          <li>Go to MailChimp for wordpress -> Forms and paste the following code:<br>
+          <strong> - footer form:</strong><br>
+<textarea class="code"><input type="email" id="mc4wp_email" name="EMAIL" placeholder="Enter your email address" required />
+<input type="submit" value="Subscribe" /> </textarea>
+          </li>
+
+         <li>Code for Contact form 7 plugin - <strong>top form:</strong><br>
+          <textarea class="code"><h4>Sign up to find out more!</h4>
+<p>[text* your-name  placeholder "Full Name"] </p>
+<p>[email* your-email  placeholder "Enter your email"] </p>
+<p>[text* your-name  placeholder "Phone Number"] </p>
+<p class="wt_form_text">We will never spam you, or sell your email to third parties. All fields are required</p>
+<p>[submit "Register Now"]</p></textarea></li>
+        </ol>
+
+		<hr>
+				<h3 id="portfolio"><strong>C) Add Portfolio Item</strong> - <a href="#toc">top</a></h3>
+        <ol>
+        	<li>Firstly go to Portfolio Items &rarr; Add New.</li>
+            <div align="center">
+                  <p><img src="assets/images/portfolioItem.jpg" alt="Portfolio Add New" width="161" height="130"></p>
+            </div>
+            <li>Give the Portfolio a title</li>
+            <li>Go to Featured Image module and click the Set featured image link<br><br></li>
+            <div align="center">
+                  <p><img src="assets/images/featureImage.jpg" alt="Feature Image" width="285" height="515"></p>
+            </div>
+        	<li>Once the image has successfully been uploaded, click on the Use as featured image link:<br><br>
+            <div align="center">
+                  <p><img src="assets/images/useFeatureImage.jpg" alt="Feature Image" width="297" height="515"></p>
+            </div></li>
+            <li>Add the detail of portfolio to the content editor. You can also add the description to the Excerpt textarea for display in the portfolio page.</li>
+            <li>Click Publish button and that's all.</li>
+        </ol>
+        <p><strong><a href="#setPortfolio">Click to Learn how to Creating A Portfolio Page</a></strong></p>
+		<hr>
+
+		<h3 id="general"><strong>D) General Options</strong> - <a href="#toc">top</a></h3>
+        <p>In Whoathemes -> General you will find 5 tabs:
+        <h5><strong>1. General Options</strong></h5>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp1-1.jpg" target="_blank">Screenshot here</a></p>
+        <h5><strong>2. Homepage</strong></h5>  
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp1-2.jpg" target="_blank">Screenshot here</a></p>
+        <h5><strong>3. Custom Favicons</strong></h5> 
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp1-3.jpg" target="_blank">Screenshot here</a></p>
+        <h5><strong>4. Google Analytics</strong></h5>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp1-4.jpg" target="_blank">Screenshot here</a></p>
+        <h5><strong>5. Custom CSS</strong></h5>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp1-5.jpg" target="_blank">Screenshot here</a></p>
+		<hr>
+        <h3 id="blog"><strong>E) Blog Options</strong> - <a href="#toc">top</a></h3>
+         <h5><strong>1. Blog Page</strong></h5>
+        
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp2-1.jpg" target="_blank">Screenshot here</a></p>
+        <h5><strong>2. Single Blog Page</strong></h5>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp2-2.jpg" target="_blank">Screenshot here</a></p>
+      	<h5><strong>3. Meta Informations for Blog Page and for Single Blog Page</strong></h5>
+        <p>You can choose to activate or dezactivate meta information for: Date, Author, Categories, Tags and Comments</p>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp2-3.jpg" target="_blank">Screenshot here</a></p>
+      	<h5><strong>4. Featured Post Entry</strong></h5>
+       
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp2-4.jpg" target="_blank">Screenshot here</a></p>
+		<hr>
+        <h3 id="portfolioOptions"><strong>G) Portfolio Options</strong> - <a href="#toc">top</a></h3>
+        <h5><strong>1. Single Portfolio Item</strong></h5>
+
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp3-1.jpg" target="_blank">Screenshot here</a></p>        
+        <h5><strong>2. Featured Image</strong></h5>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp3-2.jpg" target="_blank">Screenshot here</a></p>
+        <hr>
+        
+        <h3 id="font"><strong>H) Font Options</strong> - <a href="#toc">top</a></h3>
+        <h5><strong>Font Size</strong></h5>
+         <p>From this option you can change the font size.</p>   
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp4-1.jpg" target="_blank">Screenshot Here</a></p>
+         <hr>
+        <h5><strong>Google Fonts</strong></h5>
+        <ol>
+        	<li><strong>Enable Google Fonts</strong></li>
+            <li><strong>Google Fonts</strong> - Choose the font you want to use on your site.</li>
+        </ol>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp4-2.jpg" target="_blank">Screenshot Here</a></p>
+        <h5><strong>Font Face</strong></h5>
+        <p>This options allows you to use "FontFace" fonts on your website.To see more information about this script and what it does please <a href="http://www.font-face.com/" target="_blank">click here</a>.</p> 
+        <p>The guys from Font Squirrel released this amazing tool that allows people to edit their OpenType and TrueType fonts and male them compatible with @font-face. The tool offers a series of complements that helps people to edit their fonts the way they prefer to.</p>
+		<p>The generator will give you a compressed file with several files that will help you to implement the chosen font as @font-face.</p>
+         <ol>
+         	<li>Go to <a href="http://www.fontsquirrel.com/fontface/generator" target="_blank">http://www.fontsquirrel.com/fontface/generator</a></li>
+         	<li><img src="assets/images/fontfaceGenerate.jpg" alt="Fontface Generate" width="650" height="763"></li>
+         	<li>First create a folder in <strong>'/wp-content/themes/xlander/font-faces'</strong> with your font name and then extract here the arhive downloaded when you generated the font. You can delete the <strong>specimen_files</strong> folder, generator_config.txt and the .html file.</li>
+         	<li>You need to refresh the Font Face page to see the font listed there.</li>
+         </ol>
+        <p>To use your font Turn on t's button and turn off the other's. After you click "Save Changes", you will see the effect.</p>
+        <p>Also if you want to replace anothers elements or use more than one fonts, you should fill fontface code into "@font-face Custom CSS" option textarea, and turn on the toggle button of fonts you used in the scripts.</p>
+        <p>Example:</p>
+        <div align="center">
+              <p><img src="assets/images/fontfaceCode.jpg" alt="Font Face Code" width="710" height="210"></p>
+        </div>   
+        <hr>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp4-3.jpg" target="_blank">Screenshot Here</a></p>
+        <hr>  
+        <h3 id="background"><strong>I) Background Options</strong> - <a href="#toc">top</a></h3>
+    	<p><strong>1. Page Background</strong> - add image for home slideshow, parallax, pattern or color background</h5>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp5-1.jpg" target="_blank">Screenshot Here</a></p>
+     	<p><strong>2. Header Background</strong> - change Header Background Image</p>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp5-2.jpg" target="_blank">Screenshot Here</a></p>
+        <p><strong>3. Footer Background</strong> - change Footer background image.</p>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp5-3.jpg" target="_blank">Screenshot Here</a></p>
+        <hr>
+        <h3 id="color"><strong>J) Color Options</strong> - <a href="#toc">top</a></h3>
+        <p>1. Page Elements Color. From this option you can change the colors.</p>   
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp6-1.jpg" target="_blank">Screenshot Here</a></p>
+        <p>2. Social Icons Color.</p>   
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp6-2.jpg" target="_blank">Screenshot Here</a></p>
+        <hr>
+        <h3 id="sidebar"><strong>K) Sidebar Options</strong> - <a href="#toc">top</a></h3>
+		<p>The first option you will see is the "Add Sidebar" text field. Enter the name of the new custom sidebar you would
+like add and click on the "Save Changes" button at the bottom left of the options page.</p> 
+		<p>You will now see your newly created custom widget available by clicking on <strong>Appearance &rarr; Widgets</strong> on your
+WordPress administration menu.</p>
+        <p>You can use your newly created sidebar on a Post Item, Portfolio Single Page Item or Page Item as shown below:</p>
+         <div align="center">
+              <p><img src="assets/images/sidebar.jpg" alt="Sidebar Options" width="855" height="299"></p>
+        </div> 
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp7.jpg" target="_blank">Screenshot Here</a></p>
+		<hr>
+       <h3 id="footer"><strong>L) Footer Options</strong> - <a href="#toc">top</a></h3>
+        
+		<p>Footer it's split in 3 parts "Footer Top Area", "Footer Area" and "Footer Bottom Area" and you have the option to use one of them, all or disable footer. For default only <strong>Footer Bottom Area</strong> it's active.</p>
+        <h5><strong>Footer Area</strong></h5>
+        <p>"Simple" has 18 layouts for the footer. See picture below. Click on the layout you want and click "Save Changes" button.</p>
+         <div align="center">
+              <p><img src="assets/images/footerLayout.jpg" alt="Footer Layout" width="933" height="464"></p>
+        </div>
+        <p>Then you need to go to <strong>Appearance &rarr; Widgets</strong> on your WordPress administration menu and choose what widget do you want to use for footer.</p>
+         <div align="center">
+              <p><img src="assets/images/footerWidgets.jpg" alt="Footer Widgets" width="356" height="474"></p>
+        </div>
+        <hr>
+        
+        <h4><strong>Footer Bottom Area</strong></h4>
+        <ol>
+        	<li><strong>Copyright Text</strong> - change text from Footer Options.<br><br></li>
+            <div align="center">
+             	 <p><img src="assets/images/copyright.jpg" alt="Copyright" width="743" height="126"></p>
+       		 </div>
+        </ol>
+        <p><a href="http://whoathemes.com/files/pics/doc/xlander/wt-cp8.jpg" target="_blank">Screenshot Here</a></p>
+       
+        <hr>
+        <h3 id="widgets"><strong>M) Custom Widgets</strong> - <a href="#toc">top</a></h3>
+        <ol>
+        	<li><strong>whoathemes - Advertisement 125</strong> - Displays a list of advertisement </li>
+        	<li><strong>whoathemes - Contact Form</strong> - Displays a email contact form. </li>
+        	<li><strong>whoathemes - Contact Info</strong> - Displays a list of contact info. </li>
+        	<li><strong>whoathemes - Custom Links</strong> - Displays a list of custom links with images. </li>
+        	<li><strong>whoathemes - Flickr</strong> - Displays photos from a Flickr ID </li>
+        	<li><strong>whoathemes - Popular Post</strong> -  Displays the posts with most comments from your site.</li>
+        	<li><strong>whoathemes - Recent Posts</strong> - Displays the recent posts on your site. </li>
+        	<li><strong>whoathemes - Related Posts</strong> - Displays the posts with the same tags on your site. </li>
+        	<li><strong>whoathemes - Most Read Posts</strong> - Displays the posts with most visites on your site.</li>
+        	<li><strong>whoathemes - Popular Portfolio Posts</strong> - Displays the posts with most comments from your site.</li>
+        	<li><strong>whoathemes - Recent Portfolio Posts</strong> - Displays most recent portfolio posts.</li>
+        	<li><strong>whoathemes - Social Icon</strong> - Displays a list of social media icons.</li>
+        	<li><strong>whoathemes - Sub Navigation</strong> - Displays a list of SubPages.</li>
+        	<li><strong>whoathemes - Search</strong> - A different search form template. </li>
+        	<li><strong>whoathemes - Twitter</strong> - Displays a list of twitter feeds.</li>
+        </ol>
+        <!--h4><strong>Here is how I've setup the widgets on my site:</strong></h4>
+        <ol>
+        	<!--li><a href="assets/images/widget_home.jpg" target="_blank">Homepage</a> </li>
+            <li><a href="assets/images/top_widget.jpg" target="_blank">Top Area</a> </li>
+            <li><a href="assets/images/widget_page.jpg" target="_blank">Page</a> </li>
+            <li><a href="assets/images/widget_header.jpg" target="_blank">Header</a> </li>
+            <li><a href="assets/images/widget_nav.jpg" target="_blank">Navigation Button</a> </li>
+            <li><a href="assets/images/widget_blog.jpg" target="_blank">Blog</a> </li>
+            <li><a href="assets/images/widget_portfolio.jpg" target="_blank">Portfolio</a> </li>
+            <!--li><a href="assets/images/widget_footer.jpg" target="_blank">Footer</a> </li>
+            <li><a href="assets/images/widget_header.jpg" target="_blank">Header</a> </li-->
+        </ol-->
+        <hr>
+        <!--h3 id="templates"><strong>Q) Template Pages</strong> - <a href="#toc">top</a></h3>
+        <div align="center">
+             <p><img src="assets/images/templates.jpg" alt="Templates" width="298" height="320"></p>
+         </div>
+         <ol>
+         	<li><strong>Default Template</strong> -Sidebar on the right side of the page. </li>
+         	<li><strong>Full Width Template</strong> - Disables your sidebar.</li>
+         	<li><strong>Full Width Sections Template</strong></li>
+         	<li><strong>Left Sidebar Template</strong> - Sidebar on the left side of the page.</li>
+         	<li><strong>Right Sidebar Template</strong> - Sidebar on the right side of the page.</li>
+         	<li><strong>Sitemap Template</strong> - Creates a page that lists all of your sites internal "Pages", "Categories", "Blog Posts" and "Portfolio Post".</li>
+         </ol>
+         
+         <p>To activate one of your themeʼs page templates simply select it from the drop-down box and then click the "Publish"
+or "Update" button.</p-->
+        <h3 id="pages"><strong>N) Create Pages</strong> - <a href="#toc">top</a></h3>
+         <h4><strong>Homepage</strong></h4>
+        <textarea class="code">[vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="130"][/vc_column][/vc_row][vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes"][vc_column width="1/1" offset="vc_col-lg-7 vc_col-md-7" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_raw_html]JTNDaDElM0VIaSUyQyUyMHdlJTI3cmUlMjB1bHRyYSUyMG1vZGVybiUyMGxhbmRpbmclM0MlMkZoMSUzRSUwQSUzQ2gzJTNFV2UlMjdsbCUyMGNoYW5nZSUyMHlvdXIlMjBpZGVhJTIwb2YlMjBkZXNpZ24lM0MlMkZoMyUzRQ==[/vc_raw_html][vc_column_text css=".vc_custom_1421059624142{padding-left: 25px !important;}" el_class="wt_intro_feature"]Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula, ut interdum nisl vulputate. Vivamus ultrices luctus quam eu feugiat[/vc_column_text][vc_raw_html]JTNDZGl2JTIwY2xhc3MlM0QlMjJ0ZXh0LWxlZnQlMjIlM0UlMEElMjAlMjAlMjAlMjAlM0NhJTIwY2xhc3MlM0QlMjJidG4lMjBidG4tdGhlbWUlMjIlMjBocmVmJTNEJTIyJTIzJTIyJTNFRGlzY292ZXIlMjBNb3JlJTNDJTJGYSUzRSUwQSUyMCUyMCUyMCUyMCUzQ2ElMjBjbGFzcyUzRCUyMmJ0biUyMGJ0bi10aGVtZSUyMiUyMGhyZWYlM0QlMjIlMjMlMjIlM0VQdXJjaGFzZSUyME5vdyUzQyUyRmElM0UlMEElM0MlMkZkaXYlM0U=[/vc_raw_html][/vc_column][vc_column width="1/1" offset="vc_col-lg-5 vc_col-md-5" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column_text][contact-form-7 id="30" title="Contact form 1"][/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="140"][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+         <h4><strong>Home Style#2</strong></h4>
+        <textarea class="code">[vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="165"][/vc_column][/vc_row][vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes" el_class="wt_home_style_2"][vc_column width="1/1" offset="vc_col-md-12" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column_text css=".vc_custom_1421060852777{padding-left: 25px !important;}" el_class="wt_intro_feature center-text"]
+<h1>Hi, we're ultra modern landing</h1>
+Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula, interdum nisl vulputate. Vivamus ultrices luctus quam eu feugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do usmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.[/vc_column_text][vc_column_text][mc4wp_form][/vc_column_text][/vc_column][/vc_row][vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="140"][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+         <h4><strong>Home Style#3</strong></h4>
+        <textarea class="code">[vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="110"][/vc_column][/vc_row][vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes" el_class="wt_home_style_3"][vc_column width="1/2" offset="vc_col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="15"][vc_raw_html]JTNDaDElM0VIaSUyQyUyMHdlJTI3cmUlMjB1bHRyYSUyMG1vZGVybiUyMGxhbmRpbmclM0MlMkZoMSUzRSUwQSUzQ2gzJTNFV2UlMjdsbCUyMGNoYW5nZSUyMHlvdXIlMjBpZGVhJTIwb2YlMjBkZXNpZ24lM0MlMkZoMyUzRQ==[/vc_raw_html][vc_column_text css=".vc_custom_1421064024846{padding-left: 25px !important;}" el_class="wt_intro_feature"]Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula, interdum nisl vulputate. Vivamus ultrices luctus quam eu feugiat[/vc_column_text][vc_raw_html]JTNDZGl2JTIwY2xhc3MlM0QlMjJ0ZXh0LWxlZnQlMjIlM0UlMEElMjAlMjAlMjAlMjAlM0NhJTIwY2xhc3MlM0QlMjJidG4lMjBidG4tdGhlbWUlMjIlMjBocmVmJTNEJTIyJTIzJTIyJTNFRGlzY292ZXIlMjBNb3JlJTNDJTJGYSUzRSUwQSUyMCUyMCUyMCUyMCUzQ2ElMjBjbGFzcyUzRCUyMmJ0biUyMGJ0bi10aGVtZSUyMiUyMGhyZWYlM0QlMjIlMjMlMjIlM0VQdXJjaGFzZSUyME5vdyUzQyUyRmElM0UlMEElM0MlMkZkaXYlM0U=[/vc_raw_html][/vc_column][vc_column width="1/2" offset="vc_col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_single_image image="939" border_color="grey" img_link_target="_self" img_size="full"][/vc_column][/vc_row][vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="140"][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+         <h4><strong>Home Style#4</strong></h4>
+        <textarea class="code">[vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="195"][/vc_column][/vc_row][vc_row][vc_column width="1/1"][wt_bx_rotator mode="horizontal" effect="ease-in-out" speed="500" pause="3000" slide_count="3" content_1="JTNDaDIlM0VIaSUyQyUyMHdlJTI3cmUlMjB1bHRyYSUyMG1vZGVybiUzQ2JyJTNFJTIwbGFuZGluZyUzQyUyRmgyJTNFJTBBJTNDYSUyMGNsYXNzJTNEJTIyYnRuJTIwYnRuLXRoZW1lJTIyJTIwaHJlZiUzRCUyMiUyMyUyMiUzRUZpbmQlMjBvdXQlMjBtb3JlJTNDJTJGYSUzRQ==" content_2="JTNDaDIlM0VCcmFuZGluZyUyMGhhcyUyMGFub3RoZXIlMjAlMjAlM0NiciUzRWRlZmluaXRpb24lM0MlMkZoMiUzRSUwQSUzQ2ElMjBjbGFzcyUzRCUyMmJ0biUyMGJ0bi10aGVtZSUyMiUyMGhyZWYlM0QlMjIlMjMlMjIlM0VSZWFkJTIwTW9yZSUzQyUyRmElM0U=" content_3="JTNDaDIlM0VXZSUyN2xsJTIwY2hhbmdlJTIweW91ciUyMGlkZWElMjAlM0NiciUzRW9mJTIwZGVzaWduJTNDJTJGaDIlM0UlMEElM0NhJTIwY2xhc3MlM0QlMjJidG4lMjBidG4tdGhlbWUlMjIlMjBocmVmJTNEJTIyJTIzJTIyJTNFUHVyY2hhc2UlMjBOb3clM0MlMkZhJTNF" anim_type="wt_animate_if_visible" autoplay="true" pagernav="true"][/vc_column][/vc_row][vc_row][vc_column width="1/1" offset="vc_hidden-md vc_hidden-sm vc_hidden-xs" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_spacer height="200"][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+
+         <h4><strong>About</strong></h4>
+        <textarea class="code">[vc_row min_height="0" center_row="yes" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>About Us</h2>
+<h3 class="h2">Who we are</h3>
+[/wt_section_headings][wt_spacer height="35"][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column width="1/1" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="col-md-7" offset="vc_col-lg-7"][vc_tabs][vc_tab title="OUR PHILOSOPHY" tab_id="1418208306-1-32"][vc_column_text]Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula, ut interdum nisl vulputate. Vivamus ultrices luctus quam eu feugiat. Nunc sagittis odio eget odio laoreet mollis. Nullam rutrum blandit convallis. Maecenas id nisi eget nunc convallis consectetur nec sed nibh. Mauris in gravida
+
+Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula Sed justo sapien, ultrices non rutrum in, condimentum non sem. Aliquam finibus condimentum tellus, vel viverra est gravida ut. Duis vestibulum lorem et eros fermentum tristique penatibus et magnis dis parturient montes[/vc_column_text][vc_raw_html]JTNDYSUyMGhyZWYlM0QlMjIlMjMlMjIlMjBjbGFzcyUzRCUyMmJ0biUyMGJ0bi10aGVtZSUyMHd0X2FuaW1hdGUlMjB3dF9hbmltYXRlX2lmX3Zpc2libGUlMjIlMjBkYXRhLWFuaW1hdGlvbiUzRCUyMmJvdW5jZUluJTIyJTIwZGF0YS1hbmltYXRpb24tZGVsYXklM0QlMjIzMDAlMjIlM0VEaXNjb3ZlciUyME1vcmUlM0MlMkZhJTNF[/vc_raw_html][/vc_tab][vc_tab title="OUR HISTORY" tab_id="1418208306-2-52"][vc_column_text]Nullam rutrum blandit convallis. Maecenas id nisi eget nunc convallis consectetur nec sed nibh. Mauris in gravida. Aliquam varius fringilla imperdiet. Etiam mollis est sit amet risus congue aliquam penatibus et magnis dis parturient montes feugiat
+
+Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula, ut interdum nisl vulputate ultrices luctus quam eu feugiat. Nunc sagittis odio eget odio laoreet mollis Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula Duis vestibulum lorem et eros fermentum tristique[/vc_column_text][vc_raw_html]JTNDYSUyMGhyZWYlM0QlMjIlMjMlMjIlMjBjbGFzcyUzRCUyMmJ0biUyMGJ0bi10aGVtZSUyMGFuaW1hdGVkJTIwYm91bmNlSW4lMjB2aXNpYmxlJTIyJTIwZGF0YS1hbmltYXRpb24lM0QlMjJib3VuY2VJbiUyMiUyMGRhdGEtYW5pbWF0aW9uLWRlbGF5JTNEJTIyMzAwJTIyJTNFVmlldyUyMEZlYXR1cmVzJTNDJTJGYSUzRSUwQSUzQ2ElMjBocmVmJTNEJTIyJTIzJTIyJTIwY2xhc3MlM0QlMjJidG4lMjBidG4tdGhlbWUlMjBhbmltYXRlZCUyMGJvdW5jZUluJTIwdmlzaWJsZSUyMiUyMGRhdGEtYW5pbWF0aW9uJTNEJTIyYm91bmNlSW4lMjIlMjBkYXRhLWFuaW1hdGlvbi1kZWxheSUzRCUyMjQwMCUyMiUzRUJ1eSUyMFRoZW1lJTNDJTJGYSUzRQ==[/vc_raw_html][/vc_tab][/vc_tabs][/vc_column][vc_column width="1/1" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="col-md-5" el_id="tabs-holder" offset="vc_col-lg-5" css_animation="fadeInRight" anim_delay="600"][vc_single_image image="969" alignment="center" border_color="grey" img_link_target="_self" img_size="full"][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="dark" bck_color="#f5f5f5" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_color="#eeeeee" border_style="solid" border_width="1px 0px 0px 0px" padding_top="80" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column width="1/1" el_class="col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_id="accordion-holder" offset="vc_col-lg-6"][vc_single_image image="971" alignment="center" border_color="grey" img_link_target="_self" img_size="full"][/vc_column][vc_column width="1/1" el_class="col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" offset="vc_col-lg-6"][vc_accordion][vc_accordion_tab title=" 100% Responsive Layout "][vc_column_text]Nullam rutrum blandit convallis. Maecenas id nisi eget nunc convallis consectetur nec sed nibh. Mauris in gravida Aliquam varius fringilla imperdiet. Etiam mollis est sit amet risus congue aliquam odio. Integer mattis elit eleifend purus tincidunt tempor. Integer sed luctus est. Nam cursus turpis nec velit sodales, eget vestibulum[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title=" Clean &amp; Modern Design "][vc_column_text]Pellentesque sapien purus, sagittis eu accumsan convallis, vehicula ut lectus. Fusce accumsan purus pretium ligula vehicula, ut interdum nisl vulputate. Vivamus ultrices luctus quam eu feugiat. Nunc sagittis odio eget odio laoreet mollis. Nam eleifend, mauris ac iaculis malesuada Aenean eget enim sed massa gravida eleifend. Donec lobortis elit eget ultrices fermentum. Proin et egestas ex. Pellentesque scelerisque auctor blandit.[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title=" Detailed Documentation"][vc_column_text]Aenean blandit non nulla at sodales. Sed ut nisi eu dui accumsan mollis in ac velit. Quisque erat diam, sodales vitae arcu ac, consequat consequat nibh. Donec vel sapien augue. Integer rhoncus urna vel turpis cursus odio. Integer mattis elit eleifend purus tincidunt tempor. Integer sed luctus est. Nam cursus turpis nec velit sodales, eget vestibulum[/vc_column_text][/vc_accordion_tab][vc_accordion_tab title="Free Premium Support"][vc_column_text]Aenean blandit non nulla at sodales. Sed ut nisi eu dui accumsan mollis in ac velit. Quisque erat diam, sodales vitae arcu ac, consequat consequat nibh. Donec vel sapien augue. Integer rhoncus urna vel turpis cursusPhasellus porta, mauris sed molestie cursus, quam odio sagittis nibh, consequat dapibus justo eros a erat. Phasellus interdum nisl a ligula feugiat, a malesuada metus dictum[/vc_column_text][/vc_accordion_tab][/vc_accordion][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="light" bg_type="parallax" bck_image="973" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="20" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_id="wt_pie_chart"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible" el_class="wt_smaller_bar"]
+<h3 class="h2">Our skills</h3>
+[/wt_section_headings][vc_row_inner][vc_column_inner width="1/2" el_class="col-sm-3 col-xs-6"][wt_pie_chart value="85" units="%" track_color="#202020" bar_color="#ffc400" line_width="8" animate="2000" line_cap="butt" anim_type="wt_animate_if_visible" title="Design"][/vc_column_inner][vc_column_inner width="1/2" el_class="col-sm-3 col-xs-6"][wt_pie_chart value="57" units="%" track_color="#202020" bar_color="#ffc400" line_width="8" animate="2000" line_cap="butt" anim_type="wt_animate_if_visible" title="WordPress"][/vc_column_inner][vc_column_inner width="1/2" el_class="col-sm-3 col-xs-6"][wt_pie_chart value="74" units="%" track_color="#202020" bar_color="#ffc400" line_width="8" animate="2000" line_cap="butt" anim_type="wt_animate_if_visible" title="jQuery"][/vc_column_inner][vc_column_inner width="1/2" el_class="col-sm-3 col-xs-6"][wt_pie_chart value="91" units="%" track_color="#202020" bar_color="#ffc400" line_width="8" animate="2000" line_cap="butt" anim_type="wt_animate_if_visible" title="HTML/CSS"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes"][vc_column width="1/1"][vc_single_image image="975" alignment="center" border_color="grey" img_link_target="_self" img_size="full"][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="wt_left_icon_services"][vc_column width="1/1" offset="vc_col-lg-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="20" alignment="left" content_new_row="yes" anim_type="wt_animate_if_visible" icon="fa-flask" title="Responsive Design"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper[/wt_service_box][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="20" alignment="left" content_new_row="yes" anim_type="wt_animate_if_visible" icon="fa-tint" title="Fresh Colors"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper[/wt_service_box][/vc_column][vc_column width="1/1" offset="vc_col-lg-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="20" alignment="left" content_new_row="yes" anim_type="wt_animate_if_visible" icon="fa-cogs" title="Easy to Customize"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper[/wt_service_box][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="20" alignment="left" content_new_row="yes" anim_type="wt_animate_if_visible" icon="fa-crop" title="OnScroll Animation"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper[/wt_service_box][/vc_column][/vc_row][vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="22" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column width="1/1" el_class="text-center" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="8" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_raw_html]JTNDYSUyMGhyZWYlM0QlMjIlMjMlMjIlMjBjbGFzcyUzRCUyMmJ0biUyMGJ0bi10aGVtZSUyMGFuaW1hdGVkJTIwYm91bmNlSW4lMjB2aXNpYmxlJTIyJTIwZGF0YS1hbmltYXRpb24lM0QlMjJib3VuY2VJbiUyMiUyMGRhdGEtYW5pbWF0aW9uLWRlbGF5JTNEJTIyNjAwJTIyJTNFRGlzY292ZXIlMjBNb3JlJTNDJTJGYSUzRSUwQSUzQ2ElMjBocmVmJTNEJTIyJTIzJTIyJTIwY2xhc3MlM0QlMjJidG4lMjBidG4tdGhlbWUlMjBhbmltYXRlZCUyMGJvdW5jZUluJTIwdmlzaWJsZSUyMiUyMGRhdGEtYW5pbWF0aW9uJTNEJTIyYm91bmNlSW4lMjIlMjBkYXRhLWFuaW1hdGlvbi1kZWxheSUzRCUyMjcwMCUyMiUzRVB1cmNoYXNlJTIwTm93JTNDJTJGYSUzRQ==[/vc_raw_html][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+         <h4><strong>Features</strong></h4>
+        <textarea class="code">[vc_row min_height="0" typography="light" bg_type="parallax" bck_image="977" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="40" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Our Features</h2>
+<h3 class="h2">How we do it</h3>
+[/wt_section_headings][wt_spacer height="35"][vc_row_inner el_class="wt_services_right_space wt_features"][vc_column_inner width="1/2" el_class="col-md-6"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="left" anim_type="wt_animate_if_visible" icon="fa-flask" title="Responsive Design" icon_color="#ffc400" empty_space="yes"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat[/wt_service_box][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="left" anim_type="wt_animate_if_visible" icon="fa-bars" title="Bootstrap Grid" icon_color="#ffc400" empty_space="yes"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat[/wt_service_box][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="left" anim_type="wt_animate_if_visible" icon="fa-wrench" title="Easy to Modify" icon_color="#ffc400" empty_space="yes"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat[/wt_service_box][/vc_column_inner][vc_column_inner width="1/2" el_class="col-md-6"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="left" anim_type="wt_animate_if_visible" icon="fa-cogs" title="Powerful Options" icon_color="#ffc400" empty_space="yes"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat[/wt_service_box][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="left" anim_type="wt_animate_if_visible" icon="fa-trophy" title="jQuery Effects" icon_color="#ffc400" empty_space="yes"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat[/wt_service_box][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="left" anim_type="wt_animate_if_visible" icon="fa-life-ring" title="Premium Support" icon_color="#ffc400" empty_space="yes"]Proin a velit aliquam vitae malesuada rutrum. Aenean ullamcorper placerat porttitor velit aliquam vitae. Aliquam a augue suscipit, bibendum luctus neque laoreet rhoncus ipsum, ullamcorper ullamcorper placerat[/wt_service_box][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h3 class="h2">Our history</h3>
+[/wt_section_headings][wt_spacer height="35"][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="wt_timeline"][vc_column width="1/1"][wt_timeline alignment="left" anim_type="wt_animate_if_almost_visible" date="2014" title="History Item Title" content_css_animation="fadeInLeft" content_anim_delay="400" date_anim_type="wt_animate_if_visible" content_anim_type="wt_animate_if_almost_visible" timeline_text="Praesent ultrices suscipit dui in bibendum. Etiam scelerisque semper justo ut convallis. Cras tempor, elit non convallis tincidunt, est eros tincidunt ligula, hendrerit dictum nunc magna eu ligula sagittis, lacus eros commod"]Praesent ultrices suscipit dui in bibendum. Etiam scelerisque semper justo ut convallis. Cras tempor, elit non convallis tincidunt, est eros tincidunt ligula, hendrerit dictum nunc magna eu ligula sagittis, lacus eros commodo[/wt_timeline][wt_timeline alignment="right" anim_type="wt_animate_if_almost_visible" date="2013" title="History Item Title" date_css_animation="bounceIn" date_anim_delay="450" content_css_animation="fadeInRight" content_anim_delay="500" date_anim_type="wt_animate_if_visible" content_anim_type="wt_animate_if_almost_visible" timeline_text="Praesent ultrices suscipit dui in bibendum. Etiam scelerisque semper justo ut convallis. Cras tempor, elit non convallis tincidunt, est eros tincidunt ligula, hendrerit dictum nunc magna eu ligula sagittis, lacus eros commod"]
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do usmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+[/wt_timeline][wt_timeline alignment="left" anim_type="wt_animate_if_almost_visible" date="2012" title="History Item Title" date_css_animation="bounceIn" date_anim_delay="550" content_css_animation="fadeInLeft" content_anim_delay="600" date_anim_type="wt_animate_if_visible" content_anim_type="wt_animate_if_almost_visible" timeline_text="Praesent ultrices suscipit dui in bibendum. Etiam scelerisque semper justo ut convallis. Cras tempor, elit non convallis tincidunt, est eros tincidunt ligula, hendrerit dictum nunc magna eu ligula sagittis, lacus eros commod"]Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do usmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco.[/wt_timeline][wt_timeline alignment="right" anim_type="wt_animate_if_almost_visible" date="2011" title="History Item Title" date_css_animation="bounceIn" date_anim_delay="650" content_css_animation="fadeInRight" content_anim_delay="700" date_anim_type="wt_animate_if_visible" content_anim_type="wt_animate_if_almost_visible" timeline_text="Praesent ultrices suscipit dui in bibendum. Etiam scelerisque semper justo ut convallis. Cras tempor, elit non convallis tincidunt, est eros tincidunt ligula, hendrerit dictum nunc magna eu ligula sagittis, lacus eros commod"]Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do usmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco.[/wt_timeline][wt_timeline alignment="left" anim_type="wt_animate_if_almost_visible" date="Start" date_css_animation="bounceIn" date_anim_delay="750" date_anim_type="wt_animate_if_visible" content_anim_type="wt_animate_if_almost_visible"][/vc_column][/vc_row][vc_row min_height="0" typography="light" bg_type="parallax" bck_image="979" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes" el_id="statistic-holder"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Some facts about us</h2>
+<h3 class="h2">We are proud of these numbers</h3>
+[/wt_section_headings][wt_spacer height="30"][vc_row_inner][vc_column_inner width="1/4" el_class="col-md-3 col-xs-3"][wt_counter type="light" counter_number="1123" anim_type="wt_animate_if_visible" counter_text="Projects"][/vc_column_inner][vc_column_inner width="1/4" el_class="col-md-3 col-xs-3"][wt_counter type="light" counter_number="740" anim_type="wt_animate_if_visible" counter_text="Clients"][/vc_column_inner][vc_column_inner width="1/4" el_class="col-md-3 col-xs-3"][wt_counter type="light" counter_number="160" anim_type="wt_animate_if_visible" counter_text="Cup of coffee"][/vc_column_inner][vc_column_inner width="1/4" el_class="col-md-3 col-xs-3"][wt_counter type="light" counter_number="875" anim_type="wt_animate_if_visible" counter_text="Followers"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+
+         <h4><strong>Works</strong></h4>
+        <textarea class="code">[vc_row][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Our portfolio</h2>
+<h3 class="h2">Our awesome works</h3>
+[/wt_section_headings][/vc_column][/vc_row][vc_row el_id="works-holder" min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column width="1/1"][wt_portfolio columns="4" grid_spaces="false" overlay_desc="true" max="8" pagination="false" pagination_align="center" sortable="true" carousel="false" auto_slide="0" carousel_nav="false" title="true" title_linkable="true" excerpt="false" excerpt_length="15" full="false" category="true" read_more="false" group="true" order="DESC" orderby="date"][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+
+         <h4><strong>Team</strong></h4>
+        <textarea class="code">[vc_row min_height="0" center_row="yes" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Our team</h2>
+<h3 class="h2">Behind the scenes</h3>
+[/wt_section_headings][wt_spacer height="35"][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="30" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_id="team-holder"][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="col-xs-6 col-md-3"][wt_team image="989" alignment="center" anim_type="wt_animate_if_visible" img_size="full" team_name="John Doe" team_job="Founder" team_socials="facebook,twitter,google,behance"]Maecenas suscipit imperdiet adipiscing sceleris integer posuere erat venenatis pellentesque[/wt_team][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="col-xs-6 col-md-3"][wt_team image="990" alignment="center" anim_type="wt_animate_if_visible" img_size="full" team_name="Jane Doe" team_job="Web-Developer" team_socials="facebook,twitter,google,behance"]Maecenas suscipit imperdiet adipiscing sceleris integer posuere erat venenatis pellentesque[/wt_team][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="col-xs-6 col-md-3"][wt_team image="991" alignment="center" anim_type="wt_animate_if_visible" img_size="full" team_name="Jane Doe" team_job="Photographer" team_socials="facebook,twitter,google,behance"]Maecenas suscipit imperdiet adipiscing sceleris integer posuere erat venenatis pellentesque[/wt_team][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-6" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="0" padding_bottom="0" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="col-xs-6 col-md-3"][wt_team image="992" alignment="center" anim_type="wt_animate_if_visible" img_size="full" team_name="John Doe" team_job="Programmer" team_socials="facebook,twitter,google,behance"]Maecenas suscipit imperdiet adipiscing sceleris integer posuere erat venenatis pellentesque[/wt_team][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>
+
+         <h4><strong>Blog</strong></h4>
+        <textarea class="code">[vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="30" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>From the blog</h2>
+<h3 class="h2">Check our latest news</h3>
+[/wt_section_headings][wt_spacer height="35"][wt_blog_grid count="3" featured_entry="true" featured_entry_type="full" title="true" meta="true" excerpt="true" excerpt_length="20" full="false" order="DESC" orderby="date" read_more="true" anim_type="wt_animate_if_visible"][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="dark" bg_type="parallax" bck_image="1015" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_id="promo_line"][vc_column width="1/1"][vc_column_text]
+<h2>Perfect for any kind of presentation</h2>
+Use xLander to showcase your mobile app, services or business projects[/vc_column_text][vc_raw_html]JTNDYSUyMGhyZWYlM0QlMjIlMjMlMjIlMjBjbGFzcyUzRCUyMmJ0biUyMGJ0bi10aGVtZSUyMiUzRVB1cmNoYXNlJTIwTm93JTNDJTJGYSUzRSUwQSUzQ2ElMjBocmVmJTNEJTIyJTIzJTIyJTIwY2xhc3MlM0QlMjJidG4lMjBidG4tdGhlbWUlMjIlM0VEaXNjb3ZlciUyME1vcmUlM0MlMkZhJTNF[/vc_raw_html][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>   
+         <h4><strong>Pricing</strong></h4>
+        <textarea class="code">[vc_row min_height="0" center_row="yes" typography="dark" bck_color="#f5f5f5" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_color="#eeeeee" border_style="solid" border_width="1px 0px 1px 0px" padding_top="80" padding_bottom="50" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="wt_pricing_section"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Our pricing</h2>
+<h3 class="h2">Choose your packages</h3>
+[/wt_section_headings][wt_spacer height="35"][vc_row_inner el_class="wt_pricing_section"][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_pricing_table featured_table="false" plan="Basic" cost="<sup>$</sup>39<sup>99</sup>" button_text="Select plan" anim_type="wt_animate_if_visible" unit="$"]
+<ul>
+	<li>Up to <strong>5 Projects</strong></li>
+	<li><strong>5 GB</strong> of Storage</li>
+	<li>Up to <strong>100 Users</strong></li>
+	<li><strong>10 GB</strong> Bandwidth</li>
+	<li><strong>Security Suite</strong></li>
+</ul>
+[/wt_pricing_table][/vc_column_inner][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_pricing_table featured_table="false" plan="Standard" cost="<sup>$</sup>59<sup>99</sup>" button_text="Select plan" anim_type="wt_animate_if_visible" unit="$"]
+<ul>
+	<li>Up to <strong>10 Projects</strong></li>
+	<li><strong>10 GB</strong> of Storage</li>
+	<li>Up to <strong>250 Users</strong></li>
+	<li><strong>25 GB</strong> Bandwidth</li>
+	<li><strong>Security Suite</strong></li>
+</ul>
+[/wt_pricing_table][/vc_column_inner][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_pricing_table featured_table="true" plan="Advanced" cost="<sup>$</sup>99<sup>99</sup>" button_text="Select plan" anim_type="wt_animate_if_visible" unit="$"]
+<ul>
+	<li><strong>Unlimited Projects</strong></li>
+	<li><strong>50 GB</strong> of Storage</li>
+	<li>Up to <strong>1000 Users</strong></li>
+	<li><strong>100 GB</strong> Bandwidth</li>
+	<li><strong>Security Suite</strong></li>
+</ul>
+[/wt_pricing_table][/vc_column_inner][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_pricing_table featured_table="false" plan="Premium" cost="<sup>$</sup>129<sup>99</sup>" button_text="Select plan" anim_type="wt_animate_if_visible" unit="$"]
+<ul>
+	<li><strong>Unlimited Projects</strong></li>
+	<li><strong>150 GB</strong> of Storage</li>
+	<li><strong>Unlimited</strong></li>
+	<li><strong>500</strong> GB Bandwidth</li>
+	<li><strong>Security Suite</strong></li>
+</ul>
+[/wt_pricing_table][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row min_height="0" typography="dark" bck_color="#ffffff" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Our best clients</h2>
+<h3 class="h2">Who love to work with us</h3>
+[/wt_section_headings][wt_spacer height="20"][wt_clients images="998,999,1000,1001,1002,1003,1004,1005,1006" type="carousel" columns="6" tooltip_placement="top" custom_links_target="_self" owl_speed="600" owl_pagspeed="1000" owl_autoplay="false" owl_items="6" owl_itemsdesktop="5" owl_itemssmalldesktop="5" owl_itemstablet="3" owl_itemsmobile="2" owl_itemsmobilesmall="1" anim_type="wt_animate_if_visible" img_size="full"][wt_spacer height="50"][vc_column_text css=".vc_custom_1420633500629{margin-top: 0px !important;}"]
+<div class="wt_custom_owl_btns">
+<div class="wt_owl_prev btn btn-primary"><strong>&lt;</strong></div>
+<div class="wt_owl_next btn btn-primary"><strong>&gt;</strong></div>
+</div>
+<div class="wt_clearboth"></div>
+[/vc_column_text][/vc_column][/vc_row][vc_row min_height="0" center_row="yes" typography="dark" bck_color="#f5f5f5" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_color="#eeeeee" border_style="solid" border_width="1px 0px 1px 0px" padding_top="80" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" el_class="testimonial"][vc_column width="1/1"][vc_column_text el_class="wt_testimonial_heading"]
+<h3 style="text-align: center;">More than <span style="color: #ffc400;">1000 </span>Satisfied Customers</h3>
+[/vc_column_text][vc_row_inner][vc_column_inner width="1/3"][wt_testimonial image="1008" anim_type="wt_animate_if_visible" name="John Doe" company="CEO"]Maecenas laoreet augue egestas volutpat vulputate fermentum suscipit egestas lobortis magna, sit amet fermentum nisl condimentum mauris nec interdum lectus[/wt_testimonial][/vc_column_inner][vc_column_inner width="1/3"][wt_testimonial image="1009" anim_type="wt_animate_if_visible" img_size="full" name="Hannah Brown" company="Creative Director"]Maecenas laoreet augue egestas volutpat vulputate fermentum suscipit egestas lobortis magna, sit amet fermentum nisl condimentum mauris nec interdum lectus[/wt_testimonial][/vc_column_inner][vc_column_inner width="1/3"][wt_testimonial image="1010" anim_type="wt_animate_if_visible" img_size="full" name="Jane Doe" company="Programmer"]Maecenas laoreet augue egestas volutpat vulputate fermentum suscipit egestas lobortis magna, sit amet fermentum nisl condimentum mauris nec interdum lectus[/wt_testimonial][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>   
+         <h4><strong>Contact</strong></h4>
+        <textarea class="code">[vc_row min_height="0" typography="dark" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="80" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes" el_id="contact-holder"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Our address</h2>
+<h3 class="h2">Where you can find us</h3>
+[/wt_section_headings][wt_spacer height="20"][vc_row_inner][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="center" anim_type="wt_animate_if_visible" icon="fa-map-marker" icon_color="#ffc400" title="Office Location"]Anfield Road Liverpool L4 0TH UK[/wt_service_box][/vc_column_inner][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="center" anim_type="wt_animate_if_visible" icon="fa-phone" icon_color="#ffc400" title="Call Us"]1-234-567-890[/wt_service_box][/vc_column_inner][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="center" anim_type="wt_animate_if_visible" icon="fa-envelope-o" icon_color="#ffc400" title="Email Address"]email@gmail.com[/wt_service_box][/vc_column_inner][vc_column_inner width="1/2" el_class="col-md-3 col-xs-6"][wt_service_box icon_type="wt_icon_type_1" icon_style="wt_icon_circle" border_style="solid" icon_size="60" alignment="center" anim_type="wt_animate_if_visible" icon="fa-clock-o" icon_color="#ffc400" title="Working Hours"]Monday - Friday 9:00 - 21:00[/wt_service_box][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row min_height="0" typography="light" bg_type="parallax" bck_image="1017" bg_size="full" bg_position="top" bg_size_standard="cover" bg_repeat="no-repeat" border_style="solid" border_width="0px 0px 0px 0px" padding_top="80" padding_bottom="50" padding_left="0" padding_right="0" margin_top="0" margin_bottom="0" anim_type="wt_animate_if_visible" center_row="yes"][vc_column width="1/1"][wt_section_headings anim_type="wt_animate_if_visible"]
+<h2>Get in touch!</h2>
+<h3 class="h2">Send us a message</h3>
+[/wt_section_headings][wt_spacer height="25"][wt_contact_form fields="name,email,subject,message" required="email,subject,message" button_text="Send message" anim_type="wt_animate_if_visible"][/vc_column][/vc_row]</textarea>
+<div style="margin-bottom: 2.5em;"></div>   
+      
+        <hr>
+            <h3 id="translation"><strong>O) Translation</strong> - <a href="#toc">top</a></h3>
+                <p>The files that are involved in translation are <strong>default.po</strong> and <strong>default.mo</strong>, they can be found within theme folder at the same level as template files.</p>
+               <p>We will need a gettext file editor to open up <strong>default.po</strong> and type in the translation to your language and save in the correct language <strong>.po</strong> file. The <strong>.mo</strong> file will be auto generated in the process. I use Poedit for editing default.po, you can download it from <a href="http://www.poedit.net/download.php" target="_blank">here</a>.</p>
+               <p>The naming convention is based on the language code (e.g. zh for Chinese) followed by the country code (e.g. _CN for China). So, the Chinese file would be called zh_CN.po and zh_CN.mo. See the complete list of <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes" target="_blank">language codes</a> and <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Country-Codes" target="_blank">country codes</a> to find your exact locale.Please note that if you name the file wrongly, WordPress will not pick up the translated strings.</p>
+			<p>You will also need to make a change to your WordPress wp-config.php file (located in your WP root directory) with the correct language codes like the example below. If you don't have a WPLANG entry then create one.<br><strong>define ('WPLANG', 'zh_CN');</strong><br>
+This language define in wp-config.php will tell WordPress to load your language files. The above example, will tell WordPress that this is a Chinese WordPress site and should load the Chinese zh_CN.po from the theme files.</p>
+			<h3>Steps</h3>
+            <ol>
+            	<li>Download and install Poedit. There are versions for Windows and Mac</li>
+                <li>Launch Poedit</li>
+                <li>At the toolbar of Poedit, click on File > Open and Browse to your theme folder and select <strong>default.po</strong> to open it.</li>
+                <li>The top part of the file contains the entire list of text that needs to be translated. Each line represents a place within the theme that stores the text. If you click on different lines, you'll notice the section below displays that exact line of text.
+You'll need to click on the words which should be translated.</li>
+				<li>Do the translation for all the string and "save as" into the file name that you need. In this example, we will save as zh_CN.po. You will find zh_CN.mo being automatically created by Poedit.</li>
+                <li>You can upload the newly created language files to your theme folder on your server. In this case we will upload zh_CN.po and zh_CN.mo</li>
+                <li>Clear your browser cache and re visit your site and the theme strings should be in your language.</li>
+            </ol>
+        <hr>
+		<h3 id="credits"><strong>P) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+        <p>Thank a lot to the next authors for their awesome work</p>
+        <h4><strong>Open Source Projects</strong></h4>
+        <ul>
+			<li>jQuery by <a href="http://jquery.com/">John Resig</a></li>
+			<li>jQuery prettyPhoto by <a href="http://www.no-margin-for-errors.com/">Stephane Caron</a></li>
+			<li>jQuery Tools plugin by <a href="http://flowplayer.org/tools/">Tero Piirainen</a></li>
+			<li>jQuery Easing plugin by <a href="http://gsgd.co.uk/sandbox/jquery/easing/">George McGinley Smith</a></li>
+			<li>jQuery ScrollTo script by <a href="http://flesler.blogspot.com/">Ariel Flesler</a></li>
+			<li>jQuery Nivo Slider plugin by <a href="http://nivo.dev7studios.com">Gilbert Pellegrom</a></li>
+            <li>jQuery Nivo Flex Slider plugin by <a href="http://www.woothemes.com/flexslider/">Woothemes</a></li>
+			<li>jQuery Slides Slider plugin by <a href="http://slidesjs.com">Nathan Searles</a></li>
+			<li>jQuery Quote Rotator plugin by <a href="http://coryschires.com/jquery-quote-rotator-plugin/">Cory Schires</a></li>
+			<li>jQuery Sliding Boxes and Captions by <a href="http://buildinternet.com/">Sam Dunn</a></li>             
+			<li>jQuery color plugin by <a href="http://www.bitstorm.org/jquery/color-animation/">Edwin Martin</a></li>
+			<li>jQuery elastic script by <a href="http://www.unwrongest.com/">Jan Jarfalk</a></li>
+			<li>cufon by <a href="http://cufon.shoqolate.com/">Simo Kinnunen</a></li>
+			<li>jQuery Multi Level CSS Menu #2 by <a href="http://www.dynamicdrive.com/">Dynamic Drive</a></li>
+			<li>jQuery validate script by <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">JÃ¶rn Zaefferer</a></li>
+			<li>mColorPicker by <a href="http://blog.meta100.com/post/600571131/mcolorpicker">Meta100</a></li>
+			<li>jQuery gmap plugin by <a href="http://http://gmap.nurtext.de/">Cedric Kastner</a></li>
+			<li>jQuery SWFObject plugin by <a href="http://jquery.thewikies.com/swfobject">Jonathan Neal</a></li>
+			<li>ZeroClipboard by <a href="http://code.google.com/p/zeroclipboard/">Joseph Huckaby</a></li>
+			<li>WP-PageNavi Plugin by <a href="http://lesterchan.net/">Lester 'GaMerZ' Chan</a></li>
+			<li>Breadcrumbs Plus Plugin by <a href="http://luisalberto.org/">Luis Alberto Ochoa</a></li>
+			<li>jQuery Tweet plugin by <a href="http://tweet.seaofclouds.com/">seaofclouds</a></li>
+			<li>iPhone-style Checkboxes jQuery plugin by <a href="http://tdreyno.github.com/iphone-style-checkboxes/">Thomas Reynolds</a></li>        </ul>
+        <h4><strong>Fonts</strong></h4>
+		<ul>
+            <li>BP Script by <a target="_blank" href="http://www.backpacker.gr">Backpacker</a></li></li>
+            <li>CuprumFFU by <a target="_blank" href="http://jovanny.ru">Jovanny Lemonad</a></li>
+            <li>Colaborate by <a target="_blank" href="http://www.carrois.com/">Ralph Oliver du Carrois</a></li>
+            <li>Daniel by Daniel Midgley</li>
+			<li>Droid Serif by <a target="_blank" href="http://code.google.com/android/">Google Android</a></li>
+            <li>Nobile by <a target="_blank" href="http://www.newtypography.co.uk/">Vernon Adams</a></li>
+			<li>PT Sans by <a target="_blank" href="http://fonts.ru/">Paratype</a></li>
+            <li>Sansation by Bernd Montag</li>
+		</ul>
+        <h4><strong>Images</strong></h4>
+        <ul>
+            <li>picjumbo</li>
+            <li>unsplash</li>
+        </ul>
+
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>Whoathemes</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
 </body>
 </html>
