@@ -346,10 +346,15 @@ h6 {
 }
 
 .ui-state-default {
-	border: none !important;
+	background: none;
+  	border-top: none;
+  	border-right: none;
+  	border-left: none;
 }
 
 .ui-state-active {
-  	border: none;
+  	border-top: none;
+  	border-right: none;
+  	border-left: none;
   	background: none;
 }
