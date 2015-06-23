@@ -24,12 +24,14 @@ body.wt_pattern #wt_section_home {
 	background-color: ;
 }
 body.wt_image_bg #wt_section_home {
-		background-image: url('http://localhost/fclb/wordpress/wp-content/uploads/2015/06/Congresso_Nacional_-_Bras¡lia.jpg');
+		background-image: url('http://fellype.com/fclb/wordpress/wp-content/uploads/2015/06/Congresso_Nacional_-_Bras¡lia.jpg');
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;		
 }
 body.wt_parallax {	
+		background-image: url('http://fellype.com/fclb/wordpress/wp-content/uploads/2015/06/Congresso_Nacional_-_Bras¡lia.jpg');
+		background-position: center top;		
 }
 #wt_header,
 #stickyHeaderBg,
@@ -323,3 +325,6 @@ h6 {
 .wt_social_wrap_fa a.youtube:hover i { 
 	color: #d20200;  }
 /* ----------------- Custom css ----------------- */
+#wt_intro {
+    display: none !important;
+}
