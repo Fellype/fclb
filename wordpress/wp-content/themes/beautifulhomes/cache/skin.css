@@ -335,3 +335,21 @@ h6 {
 .ui-widget-header {
 	background: none;
 }
+
+.ui-widget-content {
+	border: none;
+	background: none;
+}
+
+.wt_vcsc_style .wpb_tabs_nav > li {
+	padding: 0px;
+}
+
+.ui-state-default {
+	border: none !important;
+}
+
+.ui-state-active {
+  	border: none;
+  	background: none;
+}
