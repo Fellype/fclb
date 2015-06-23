@@ -332,6 +332,6 @@ h6 {
 
 /* ----------------- Hack for to disabling jQuery UI Style ----------------- */
 
-.wpb_tabs_nav .ui-tabs-nav .vc_clearfix .ui-helper-reset .ui-helper-clearfix .ui-widget-header .ui-corner-all {
+.ui-widget-header {
 	background: none;
 }
