@@ -373,9 +373,15 @@ h6 {
 }
 
 .crf_contact_form * {
-	text-align: -webkit-center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.crf_label label {
-  display: none;
+.wpcf7-form {
+	width: 80%;
+}
+
+.wpcf7-form input[type="submit"] {
+	margin-left: auto;
+	margin-right: auto !important;
 }
