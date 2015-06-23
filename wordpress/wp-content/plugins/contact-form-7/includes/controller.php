@@ -215,8 +215,4 @@ function wpcf7_html5_fallback() {
 		wp_enqueue_script( 'jquery-ui-spinner' );
 	}
 
-	if ( wpcf7_style_is() ) {
-		wp_enqueue_style( 'jquery-ui-smoothness',
-			wpcf7_plugin_url( 'includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css' ), array(), '1.10.3', 'screen' );
-	}
 }
