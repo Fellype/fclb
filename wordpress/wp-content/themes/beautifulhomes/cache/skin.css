@@ -324,7 +324,14 @@ h6 {
 	border-color: #d20200;  }
 .wt_social_wrap_fa a.youtube:hover i { 
 	color: #d20200;  }
-/* ----------------- Custom css ----------------- */
+/* ----------------- FCLB css ----------------- */
+
 #wt_intro {
     display: none !important;
+}
+
+/* ----------------- Hack for to disabling jQuery UI Style ----------------- */
+
+.wpb_tabs_nav .ui-tabs-nav .vc_clearfix .ui-helper-reset .ui-helper-clearfix .ui-widget-header .ui-corner-all {
+	background: none;
 }
