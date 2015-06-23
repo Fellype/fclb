@@ -358,3 +358,24 @@ h6 {
   	border-left: none;
   	background: none;
 }
+
+.crf_input {
+  	max-width: 100%;
+}
+
+.crf_input input[type="text"] {
+    	padding: 10px;
+  	border: none;
+}
+
+.crf_label {
+	visibility: hidden;
+}
+
+.crf_contact_form * {
+	text-align: -webkit-center;
+}
+
+.crf_label label {
+  display: none;
+}
