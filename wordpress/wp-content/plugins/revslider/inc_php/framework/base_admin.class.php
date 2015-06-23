@@ -210,8 +210,6 @@
 				$urlJqueryUI = $prefix."ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js";
 				self::addScriptAbsoluteUrl($urlJqueryUI,"jquery-ui");
 				
-				wp_enqueue_style('jui-smoothness', esc_url_raw($prefix.'ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/jquery-ui.css'), array(), null);
-				
 				if(function_exists("wp_enqueue_media"))
 					wp_enqueue_media();
 				
@@ -219,8 +217,7 @@
 				
 				$urlJqueryUI = $prefix."ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js";
 				self::addScriptAbsoluteUrl($urlJqueryUI,"jquery-ui");
-				wp_enqueue_style('jui-smoothness', esc_url_raw($prefix.'ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/base/jquery-ui.css'), array(), null);
-				
+
 			}
 			
 			
