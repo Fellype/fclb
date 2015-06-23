@@ -359,6 +359,12 @@ h6 {
   	background: none;
 }
 
+.wt_vcsc_style .wpb_tabs_nav {
+	  border: none;
+}
+
+/********** CSS for real ************/
+
 .crf_input {
   	max-width: 100%;
 }
@@ -366,10 +372,6 @@ h6 {
 .crf_input input[type="text"] {
     	padding: 10px;
   	border: none;
-}
-
-.crf_label {
-	visibility: hidden;
 }
 
 .crf_contact_form * {
@@ -384,4 +386,8 @@ h6 {
 .wpcf7-form input[type="submit"] {
 	margin-left: auto;
 	margin-right: auto !important;
+}
+
+.formtable select {
+	border-radius: 0px;
 }
