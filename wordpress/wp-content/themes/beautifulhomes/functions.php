@@ -11,6 +11,9 @@ function wpdocs_dequeue_script() {
 }
 add_action( 'wp_print_scripts', 'wpdocs_dequeue_script', 100 );
 
+wp_dequeue_style( 'jquery-ui' );
+wp_dequeue_style( 'jquery-ui-style' );
+
 require_once (TEMPLATEPATH . '/framework/theme-files.php');
 $theme = new wt_themeFiles();
 $theme->wt_init(array(
