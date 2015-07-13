@@ -976,4 +976,6 @@ if (breadcrumbs_id != null) {
 		$("a[title=\"inscr\"]").trigger('click');
 	});
 	
+	$('.crf_contact_submit').addClass('btn btn-theme');
+	
 })(jQuery); // End
