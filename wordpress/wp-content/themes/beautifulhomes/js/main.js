@@ -971,7 +971,9 @@ if (breadcrumbs_id != null) {
 	
 	//FCLB
 	
-	
-	alert('to funfando mlk doido');
+	$('.signup').click(function(e){
+		e.preventDefault();
+		$("a[title=\"inscr\"]").trigger('click');
+	});
 	
 })(jQuery); // End
