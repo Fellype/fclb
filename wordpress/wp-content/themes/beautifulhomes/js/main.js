@@ -968,4 +968,10 @@ if (breadcrumbs_id != null) {
 		});
 	}
 	
+	
+	//FCLB
+	
+	
+	alert('to funfando mlk doido');
+	
 })(jQuery); // End
