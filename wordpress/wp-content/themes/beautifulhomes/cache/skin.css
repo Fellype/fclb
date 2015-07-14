@@ -396,3 +396,8 @@ h6 {
 	border: none !important;
 	padding-right: 20px;
 }
+
+.ui-tabs-anchor {
+	padding-right: 20px !important;	
+}
+}
