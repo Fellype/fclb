@@ -400,4 +400,31 @@ h6 {
 .ui-tabs-anchor {
 	padding-right: 20px !important;	
 }
+
+/***** Info Boxes *****/
+
+.info-box {
+	margin-top: 20px;
+	border-radius: 3px;
+	padding: 20px;
+	font-size: 1.2em;
 }
+
+.ib2 {
+	background-color: rgb(75, 81, 144);
+}
+
+.ib1 {
+	margin-top: 30px;
+	background-color: rgb(124, 124, 47);
+}
+
+.ib3 {
+	background-color: rgb(255, 196, 0);
+}
+
+.ib3 p {
+	color: rgb(38, 38, 38);
+}
+
+
