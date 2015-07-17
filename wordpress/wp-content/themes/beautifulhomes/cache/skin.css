@@ -416,7 +416,11 @@ h6 {
 
 .ib1 {
 	margin-top: 30px;
-	background-color: rgb(124, 124, 47);
+	background-color: rgb(255, 196, 0);
+}
+
+.ib1 p {
+	color: rgb(38, 38, 38);
 }
 
 .ib3 {
