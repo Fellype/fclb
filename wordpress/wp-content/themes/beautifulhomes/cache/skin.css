@@ -372,12 +372,13 @@ h6 {
 .crf_input input[type="text"] {
     	padding: 10px;
   	border: none;
+  	border-radius: 3px;
 }
 
 .crf_input select {
     	padding: 10px;
   	border: none;
-  	border-radius: 0px;
+  	border-radius: 3px;
 }
 
 
@@ -398,7 +399,7 @@ h6 {
 }
 
 .formtable select {
-	border-radius: 0px;
+	border-radius: 3px;
 }
 
 .ui-state-default, .ui-corner-top, .ui-tabs-active, .ui-state-active {
