@@ -24,7 +24,7 @@ body.wt_pattern #wt_section_home {
 	background-color: ;
 }
 body.wt_image_bg #wt_section_home {
-		background-image: url('http://fellype.com/fclb/wordpress/wp-content/uploads/2015/06/Congresso_Nacional_-_Bras¡lia.jpg');
+		background-image: url('http://fellype.com/fclb/wordpress/wp-content/uploads/2015/07/lPanoramacn.jpg');
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;		
@@ -373,6 +373,15 @@ h6 {
     	padding: 10px;
   	border: none;
 }
+
+.crf_input select {
+    	padding: 10px;
+  	border: none;
+  	border-radius: 0px;
+}
+
+
+
 
 /*.crf_contact_form * {
 	margin-left: auto;
