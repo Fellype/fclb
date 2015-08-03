@@ -24,7 +24,7 @@ body.wt_pattern #wt_section_home {
 	background-color: ;
 }
 body.wt_image_bg #wt_section_home {
-		background-image: url('http://fellype.com/fclb/wordpress/wp-content/uploads/2015/07/lPanoramacn.jpg');
+		background-image: url('http://fellype.com/fclb/wordpress/wp-content/uploads/2015/08/capa.jpg');
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;		
@@ -99,6 +99,7 @@ h6 {
 #nav.wt_nav_side ul li a {
 	color: ;
 	font-size: 14px;
+	font-weight: normal;
 }
 #nav.wt_nav_top ul li:hover > a {
 	color: ;
